@@ -4,303 +4,1140 @@
 
 /* 基础变量 */
 :root {
+  /* Neutral/0 (_Gradient Palette.json) */
   --color-neutral-0: #1A1C1D;
+  /* Neutral/10 (_Gradient Palette.json) */
   --color-neutral-10: #202223;
+  /* Neutral/40 (_Gradient Palette.json) */
   --color-neutral-40: #5C5F62;
+  /* Neutral/50 (_Gradient Palette.json) */
   --color-neutral-50: #6D7175;
+  /* Neutral/60 (_Gradient Palette.json) */
   --color-neutral-60: #8C9196;
+  /* Neutral/70 (_Gradient Palette.json) */
   --color-neutral-70: #C9CCD0;
+  /* Neutral/75 (_Gradient Palette.json) */
   --color-neutral-75: #DBDDDF;
+  /* Neutral/80 (_Gradient Palette.json) */
   --color-neutral-80: #E4E5E7;
+  /* Neutral/85 (_Gradient Palette.json) */
   --color-neutral-85: #EDEEEF;
+  /* Neutral/90 (_Gradient Palette.json) */
   --color-neutral-90: #F1F2F3;
+  /* Neutral/95 (_Gradient Palette.json) */
   --color-neutral-95: #F6F6F7;
+  /* Neutral/99 (_Gradient Palette.json) */
   --color-neutral-99: #FAFAFB;
+  /* Neutral/100 (_Gradient Palette.json) */
   --color-neutral-100: #FFFFFF;
+  /* Neutral Variant/20 (_Gradient Palette.json) */
   --color-neutral-variant-20: #363F4D;
+  /* Neutral Variant/30 (_Gradient Palette.json) */
   --color-neutral-variant-30: #444F61;
+  /* Neutral Variant/40 (_Gradient Palette.json) */
   --color-neutral-variant-40: #9DA1A6;
+  /* Neutral Variant/50 (_Gradient Palette.json) */
   --color-neutral-variant-50: #B6BABF;
+  /* Neutral Variant/60 (_Gradient Palette.json) */
   --color-neutral-variant-60: #CDD2D8;
+  /* Neutral Variant/70 (_Gradient Palette.json) */
   --color-neutral-variant-70: #DADFE5;
+  /* Neutral Variant/80 (_Gradient Palette.json) */
   --color-neutral-variant-80: #E4E9F0;
+  /* Neutral Variant/85 (_Gradient Palette.json) */
   --color-neutral-variant-85: #EDF0F5;
+  /* Neutral Variant/99 (_Gradient Palette.json) */
   --color-neutral-variant-99: #F5F7FA;
+  /* Blue/5 (_Gradient Palette.json) */
   --color-blue-5: #0E2494;
+  /* Blue/10 (_Gradient Palette.json) */
   --color-blue-10: #1B35B6;
+  /* Blue/20 (_Gradient Palette.json) */
   --color-blue-20: #2B48D8;
+  /* Blue/30 (_Gradient Palette.json) */
   --color-blue-30: #3E5CFA;
+  /* Blue/40 (_Gradient Palette.json) */
   --color-blue-40: #5974FF;
+  /* Blue/50 (_Gradient Palette.json) */
   --color-blue-50: #788EFF;
+  /* Blue/60 (_Gradient Palette.json) */
   --color-blue-60: #95A6FF;
+  /* Blue/70 (_Gradient Palette.json) */
   --color-blue-70: #CCD4FF;
+  /* Blue/90 (_Gradient Palette.json) */
   --color-blue-90: #ECEFFF;
+  /* Blue/95 (_Gradient Palette.json) */
   --color-blue-95: #F2F4FE;
+  /* Red/0 (_Gradient Palette.json) */
   --color-red-0: #6C0F00;
+  /* Red/10 (_Gradient Palette.json) */
   --color-red-10: #A21B00;
+  /* Red/20 (_Gradient Palette.json) */
   --color-red-20: #BC2200;
+  /* Red/30 (_Gradient Palette.json) */
   --color-red-30: #D72C0D;
+  /* Red/40 (_Gradient Palette.json) */
   --color-red-40: #EC2F0D;
+  /* Red/50 (_Gradient Palette.json) */
   --color-red-50: #FD5749;
+  /* Red/60 (_Gradient Palette.json) */
   --color-red-60: #FEBCB9;
+  /* Red/70 (_Gradient Palette.json) */
   --color-red-70: #FED3D1;
+  /* Red/80 (_Gradient Palette.json) */
   --color-red-80: #FFE9E8;
+  /* Red/90 (_Gradient Palette.json) */
   --color-red-90: #FFF0F0;
+  /* Red/95 (_Gradient Palette.json) */
   --color-red-95: #FFF4F4;
+  /* Yellow/5 (_Gradient Palette.json) */
   --color-yellow-5: #7E5700;
+  /* Yellow/10 (_Gradient Palette.json) */
   --color-yellow-10: #B98900;
+  /* Yellow/20 (_Gradient Palette.json) */
   --color-yellow-20: #E8A900;
+  /* Yellow/30 (_Gradient Palette.json) */
   --color-yellow-30: #FDA500;
+  /* Yellow/40 (_Gradient Palette.json) */
   --color-yellow-40: #FFC453;
+  /* Yellow/35 (_Gradient Palette.json) */
   --color-yellow-35: #E1B878;
+  /* Yellow/60 (_Gradient Palette.json) */
   --color-yellow-60: #FFD79D;
+  /* Yellow/70 (_Gradient Palette.json) */
   --color-yellow-70: #FFE6BB;
+  /* Yellow/80 (_Gradient Palette.json) */
   --color-yellow-80: #FFEBD3;
+  /* Yellow/90 (_Gradient Palette.json) */
   --color-yellow-90: #FFF2E2;
+  /* Yellow/95 (_Gradient Palette.json) */
   --color-yellow-95: #FFF5EA;
+  /* Aqua/5 (_Gradient Palette.json) */
   --color-aqua-5: #093852;
+  /* Aqua/10 (_Gradient Palette.json) */
   --color-aqua-10: #0F5C85;
+  /* Aqua/20 (_Gradient Palette.json) */
   --color-aqua-20: #2980AF;
+  /* Aqua/30 (_Gradient Palette.json) */
   --color-aqua-30: #2096D6;
+  /* Aqua/40 (_Gradient Palette.json) */
   --color-aqua-40: #0DA8FC;
+  /* Aqua/50 (_Gradient Palette.json) */
   --color-aqua-50: #5DC4FC;
+  /* Aqua/60 (_Gradient Palette.json) */
   --color-aqua-60: #95D8FC;
+  /* Aqua/80 (_Gradient Palette.json) */
   --color-aqua-80: #D6F0FF;
+  /* Aqua/90 (_Gradient Palette.json) */
   --color-aqua-90: #E0F4FF;
+  /* Aqua/95 (_Gradient Palette.json) */
   --color-aqua-95: #F0FAFF;
+  /* Green/0 (_Gradient Palette.json) */
   --color-green-0: #005231;
+  /* Green/10 (_Gradient Palette.json) */
   --color-green-10: #006D41;
+  /* Green/20 (_Gradient Palette.json) */
   --color-green-20: #0BB26F;
+  /* Green/30 (_Gradient Palette.json) */
   --color-green-30: #0DCC7F;
+  /* Green/40 (_Gradient Palette.json) */
   --color-green-40: #12D687;
+  /* Green/50 (_Gradient Palette.json) */
   --color-green-50: #18CE79;
+  /* Green/70 (_Gradient Palette.json) */
   --color-green-70: #BAF9D9;
+  /* Green/80 (_Gradient Palette.json) */
   --color-green-80: #D9FAE9;
+  /* Green/90 (_Gradient Palette.json) */
   --color-green-90: #E6FAF0;
+  /* Green/95 (_Gradient Palette.json) */
   --color-green-95: #F2FAF6;
+  /* Neutral Variant/0 (_Gradient Palette.json) */
   --color-neutral-variant-0: #17191C;
+  /* Blue/80 (_Gradient Palette.json) */
   --color-blue-80: #E0E5FF;
+  /* Aqua/70 (_Gradient Palette.json) */
   --color-aqua-70: #B8E4FC;
+  /* Green/60 (_Gradient Palette.json) */
   --color-green-60: #86F7BE;
+  /* Alpha/White/20% (_Gradient Palette.json) */
   --color-alpha-white-20percent: #FFFFFF33;
+  /* Alpha/Black/20% (_Gradient Palette.json) */
   --color-alpha-black-20percent: #00000033;
+  /* Lemon/40 (_Gradient Palette.json) */
   --color-lemon-40: #8F7D1A;
+  /* Lemon/70 (_Gradient Palette.json) */
   --color-lemon-70: #F3D42D;
+  /* Lemon/90 (_Gradient Palette.json) */
   --color-lemon-90: #FDF5CA;
+  /* Alpha/White/75% (_Gradient Palette.json) */
   --color-alpha-white-75percent: #FFFFFFBF;
+  /* Neutral Variant/95 (_Gradient Palette.json) */
   --color-neutral-variant-95: #F2F7FE;
+  /* Neutral Variant/90 (_Gradient Palette.json) */
   --color-neutral-variant-90: #EDF4FE;
+  /* Neutral Variant/88 (_Gradient Palette.json) */
   --color-neutral-variant-88: #E5EFFD;
+  /* Neutral Variant/5 (_Gradient Palette.json) */
   --color-neutral-variant-5: #27292C;
+  /* Neutral Variant/10 (_Gradient Palette.json) */
   --color-neutral-variant-10: #323539;
+  /* Neutral Variant/15 (_Gradient Palette.json) */
   --color-neutral-variant-15: #42454A;
+  /* Neutral Variant/35 (_Gradient Palette.json) */
   --color-neutral-variant-35: #4F5C70;
+  /* Neutral/20 (_Gradient Palette.json) */
   --color-neutral-20: #323436;
+  /* Neutral/30 (_Gradient Palette.json) */
   --color-neutral-30: #414345;
+  /* Dark Neutral/0 (_Gradient Palette.json) */
   --color-dark-neutral-0: #17181C;
+  /* Dark Neutral/10 (_Gradient Palette.json) */
   --color-dark-neutral-10: #27282C;
+  /* Dark Neutral/15 (_Gradient Palette.json) */
   --color-dark-neutral-15: #2D2E33;
+  /* Dark Neutral/20 (_Gradient Palette.json) */
   --color-dark-neutral-20: #323339;
+  /* Dark Neutral/25 (_Gradient Palette.json) */
   --color-dark-neutral-25: #42434A;
+  /* Dark Neutral/30 (_Gradient Palette.json) */
   --color-dark-neutral-30: #54565E;
+  /* Dark Neutral/40 (_Gradient Palette.json) */
   --color-dark-neutral-40: #666873;
+  /* Alpha/Black/75% (_Gradient Palette.json) */
   --color-alpha-black-75percent: #000000BF;
+  /* Dark Neutral/50 (_Gradient Palette.json) */
   --color-dark-neutral-50: #797B87;
+  /* Dark Neutral/60 (_Gradient Palette.json) */
   --color-dark-neutral-60: #868996;
+  /* Dark Neutral/70 (_Gradient Palette.json) */
   --color-dark-neutral-70: #9699A8;
+  /* Dark Neutral/80 (_Gradient Palette.json) */
   --color-dark-neutral-80: #A6A9BA;
+  /* Dark Neutral/85 (_Gradient Palette.json) */
   --color-dark-neutral-85: #B8BCCF;
+  /* Dark Neutral/90 (_Gradient Palette.json) */
   --color-dark-neutral-90: #CACFE3;
+  /* Dark Neutral/95 (_Gradient Palette.json) */
   --color-dark-neutral-95: #D4D8ED;
+  /* Dark Neutral/99 (_Gradient Palette.json) */
   --color-dark-neutral-99: #E1E6FC;
+  /* Dark Neutral/Special/10 (_Gradient Palette.json) */
   --color-dark-neutral-special-10: #232533;
+  /* Dark Neutral/Special/30 (_Gradient Palette.json) */
   --color-dark-neutral-special-30: #383C52;
+  /* Dark Neutral/Special/40 (_Gradient Palette.json) */
   --color-dark-neutral-special-40: #464B66;
+  /* Lemon/10 (_Gradient Palette.json) */
   --color-lemon-10: #24210B;
+  /* Lemon/20 (_Gradient Palette.json) */
   --color-lemon-20: #454127;
+  /* Lemon/60 (_Gradient Palette.json) */
   --color-lemon-60: #CFAF00;
+  /* Lemon/80 (_Gradient Palette.json) */
   --color-lemon-80: #FFE86B;
+  /* Lemon/50 (_Gradient Palette.json) */
   --color-lemon-50: #A48F07;
+  /* Red/Dark/30 (_Gradient Palette.json) */
   --color-red-dark-30: #612E2B;
+  /* Red/Dark/20 (_Gradient Palette.json) */
   --color-red-dark-20: #4F2E2C;
+  /* Red/Dark/10 (_Gradient Palette.json) */
   --color-red-dark-10: #382A29;
+  /* Red/25 (_Gradient Palette.json) */
   --color-red-25: #CF371C;
+  /* Yellow/15 (_Gradient Palette.json) */
   --color-yellow-15: #CF9E1B;
+  /* Yellow/Dark/10 (_Gradient Palette.json) */
   --color-yellow-dark-10: #383029;
+  /* Yellow/Dark/20 (_Gradient Palette.json) */
   --color-yellow-dark-20: #4F3E2C;
+  /* Yellow/Dark/30 (_Gradient Palette.json) */
   --color-yellow-dark-30: #61472B;
+  /* Blue/15 (_Gradient Palette.json) */
   --color-blue-15: #1B39CF;
+  /* Blue/0 (_Gradient Palette.json) */
   --color-blue-0: #0B1964;
+  /* Blue/Dark/10 (_Gradient Palette.json) */
   --color-blue-dark-10: #292C38;
+  /* Blue/Dark/20 (_Gradient Palette.json) */
   --color-blue-dark-20: #2C334F;
+  /* Blue/Dark/30 (_Gradient Palette.json) */
   --color-blue-dark-30: #2B3561;
+  /* Aqua/25 (_Gradient Palette.json) */
   --color-aqua-25: #1B93CF;
+  /* Aqua/Dark/10 (_Gradient Palette.json) */
   --color-aqua-dark-10: #293338;
+  /* Aqua/Dark/20 (_Gradient Palette.json) */
   --color-aqua-dark-20: #2C434F;
+  /* Aqua/Dark/30 (_Gradient Palette.json) */
   --color-aqua-dark-30: #2B4F61;
+  /* Green/25 (_Gradient Palette.json) */
   --color-green-25: #1BCF75;
+  /* Green/Dark/10 (_Gradient Palette.json) */
   --color-green-dark-10: #293830;
+  /* Green/Dark/20 (_Gradient Palette.json) */
   --color-green-dark-20: #2C4F3E;
+  /* Green/Dark/30 (_Gradient Palette.json) */
   --color-green-dark-30: #2B6147;
+  /* Yellow/0 (_Gradient Palette.json) */
   --color-yellow-0: #403624;
+  /* Yellow/50 (_Gradient Palette.json) */
   --color-yellow-50: #FFD06A;
+  /* Aqua/0 (_Gradient Palette.json) */
   --color-aqua-0: #243640;
+  /* Aqua/55 (_Gradient Palette.json) */
   --color-aqua-55: #6ACBFF;
+  /* Aqua/75 (_Gradient Palette.json) */
   --color-aqua-75: #C7EBFF;
+  /* Red/55 (_Gradient Palette.json) */
   --color-red-55: #FF5353;
+  /* Dark Neutral/5 (_Gradient Palette.json) */
   --color-dark-neutral-5: #1B1C21;
+  /* Dark Neutral/Special/0 (_Gradient Palette.json) */
   --color-dark-neutral-special-0: #1C1E26;
+  /* Dark Neutral/Special/5 (_Gradient Palette.json) */
   --color-dark-neutral-special-5: #22242E;
+  /* Dark Neutral/Special/20 (_Gradient Palette.json) */
   --color-dark-neutral-special-20: #2B2E3B;
+  /* Blue/Dark/40 (_Gradient Palette.json) */
   --color-blue-dark-40: #2D3770;
+  /* Blue/Dark/50 (_Gradient Palette.json) */
   --color-blue-dark-50: #354285;
+  /* Alpha/White/5% (_Gradient Palette.json) */
   --color-alpha-white-5percent: #FFFFFF0D;
+  /* Alpha/Black/10% (_Gradient Palette.json) */
   --color-alpha-black-10percent: #0000001A;
+  /* Basic/None (_Gradient Palette.json) */
   --color-basic-none: #FFFFFF00;
+  /* Basic/White (_Gradient Palette.json) */
   --color-basic-white: #FFFFFF;
+  /* Basic/Black (_Gradient Palette.json) */
   --color-basic-black: #000000;
+  /* Alpha/White/10% (_Gradient Palette.json) */
   --color-alpha-white-10percent: #FFFFFF1A;
+  /* Alpha/White/30% (_Gradient Palette.json) */
   --color-alpha-white-30percent: #FFFFFF4D;
+  /* Alpha/White/40% (_Gradient Palette.json) */
   --color-alpha-white-40percent: #FFFFFF66;
+  /* Alpha/White/50% (_Gradient Palette.json) */
   --color-alpha-white-50percent: #FFFFFF80;
+  /* Alpha/White/60% (_Gradient Palette.json) */
   --color-alpha-white-60percent: #FFFFFF99;
+  /* Alpha/White/70% (_Gradient Palette.json) */
   --color-alpha-white-70percent: #FFFFFFB2;
+  /* Alpha/White/80% (_Gradient Palette.json) */
   --color-alpha-white-80percent: #FFFFFFCC;
+  /* Alpha/White/90% (_Gradient Palette.json) */
   --color-alpha-white-90percent: #FFFFFFE5;
+  /* Alpha/White/100% (_Gradient Palette.json) */
   --color-alpha-white-100percent: #FFFFFF;
+  /* Alpha/Black/5% (_Gradient Palette.json) */
   --color-alpha-black-5percent: #0000000D;
+  /* Alpha/Black/30% (_Gradient Palette.json) */
   --color-alpha-black-30percent: #0000004D;
+  /* Alpha/Black/40% (_Gradient Palette.json) */
   --color-alpha-black-40percent: #00000066;
+  /* Alpha/Black/50% (_Gradient Palette.json) */
   --color-alpha-black-50percent: #00000080;
+  /* Alpha/Black/60% (_Gradient Palette.json) */
   --color-alpha-black-60percent: #00000099;
+  /* Alpha/Black/70% (_Gradient Palette.json) */
   --color-alpha-black-70percent: #000000B2;
+  /* Alpha/Black/80% (_Gradient Palette.json) */
   --color-alpha-black-80percent: #000000CC;
+  /* Alpha/Black/90% (_Gradient Palette.json) */
   --color-alpha-black-90percent: #000000E5;
+  /* Alpha/Black/100% (_Gradient Palette.json) */
   --color-alpha-black-100percent: #000000;
+  /* Alpha/White/1% (_Gradient Palette.json) */
   --color-alpha-white-1percent: #FFFFFF03;
+  /* Alpha/White/3% (_Gradient Palette.json) */
   --color-alpha-white-3percent: #FFFFFF08;
+  /* Alpha/White/8% (_Gradient Palette.json) */
   --color-alpha-white-8percent: #FFFFFF14;
+  /* Alpha/Black/1% (_Gradient Palette.json) */
   --color-alpha-black-1percent: #00000003;
+  /* Alpha/Black/3% (_Gradient Palette.json) */
   --color-alpha-black-3percent: #00000008;
+  /* Alpha/Black/8% (_Gradient Palette.json) */
   --color-alpha-black-8percent: #00000014;
+  /* Moss/25 (_Gradient Palette.json) */
   --color-moss-25: #FAFDF7;
+  /* Moss/50 (_Gradient Palette.json) */
   --color-moss-50: #F5FBEE;
+  /* Moss/100 (_Gradient Palette.json) */
   --color-moss-100: #E6F4D7;
+  /* Moss/200 (_Gradient Palette.json) */
   --color-moss-200: #CEEAB0;
+  /* Moss/300 (_Gradient Palette.json) */
   --color-moss-300: #ACDC79;
+  /* Moss/400 (_Gradient Palette.json) */
   --color-moss-400: #86CB3C;
+  /* Moss/500 (_Gradient Palette.json) */
   --color-moss-500: #669F2A;
+  /* Moss/600 (_Gradient Palette.json) */
   --color-moss-600: #4F7A21;
+  /* Moss/700 (_Gradient Palette.json) */
   --color-moss-700: #3F621A;
+  /* Moss/800 (_Gradient Palette.json) */
   --color-moss-800: #335015;
+  /* Moss/900 (_Gradient Palette.json) */
   --color-moss-900: #2B4212;
+  /* Moss/950 (_Gradient Palette.json) */
   --color-moss-950: #1A280B;
+  /* Teal/25 (_Gradient Palette.json) */
   --color-teal-25: #F6FEFC;
+  /* Teal/50 (_Gradient Palette.json) */
   --color-teal-50: #F0FDF9;
+  /* Teal/100 (_Gradient Palette.json) */
   --color-teal-100: #CCFBEF;
+  /* Teal/200 (_Gradient Palette.json) */
   --color-teal-200: #99F6E0;
+  /* Teal/300 (_Gradient Palette.json) */
   --color-teal-300: #5FE9D0;
+  /* Teal/400 (_Gradient Palette.json) */
   --color-teal-400: #2ED3B7;
+  /* Teal/500 (_Gradient Palette.json) */
   --color-teal-500: #15B79E;
+  /* Teal/600 (_Gradient Palette.json) */
   --color-teal-600: #0E9384;
+  /* Teal/700 (_Gradient Palette.json) */
   --color-teal-700: #107569;
+  /* Teal/800 (_Gradient Palette.json) */
   --color-teal-800: #125D56;
+  /* Teal/900 (_Gradient Palette.json) */
   --color-teal-900: #134E48;
+  /* Teal/950 (_Gradient Palette.json) */
   --color-teal-950: #0A2926;
+  /* Cyan/25 (_Gradient Palette.json) */
   --color-cyan-25: #F5FEFF;
+  /* Cyan/50 (_Gradient Palette.json) */
   --color-cyan-50: #ECFDFF;
+  /* Cyan/100 (_Gradient Palette.json) */
   --color-cyan-100: #CFF9FE;
+  /* Cyan/200 (_Gradient Palette.json) */
   --color-cyan-200: #A5F0FC;
+  /* Cyan/300 (_Gradient Palette.json) */
   --color-cyan-300: #67E3F9;
+  /* Cyan/400 (_Gradient Palette.json) */
   --color-cyan-400: #22CCEE;
+  /* Cyan/500 (_Gradient Palette.json) */
   --color-cyan-500: #06AED4;
+  /* Cyan/600 (_Gradient Palette.json) */
   --color-cyan-600: #088AB2;
+  /* Cyan/700 (_Gradient Palette.json) */
   --color-cyan-700: #0E7090;
+  /* Cyan/800 (_Gradient Palette.json) */
   --color-cyan-800: #155B75;
+  /* Cyan/900 (_Gradient Palette.json) */
   --color-cyan-900: #164C63;
+  /* Cyan/950 (_Gradient Palette.json) */
   --color-cyan-950: #0D2D3A;
+  /* Indigo/25 (_Gradient Palette.json) */
   --color-indigo-25: #F5F8FF;
+  /* Indigo/50 (_Gradient Palette.json) */
   --color-indigo-50: #EEF4FF;
+  /* Indigo/100 (_Gradient Palette.json) */
   --color-indigo-100: #E0EAFF;
+  /* Indigo/200 (_Gradient Palette.json) */
   --color-indigo-200: #C7D7FE;
+  /* Indigo/300 (_Gradient Palette.json) */
   --color-indigo-300: #A4BCFD;
+  /* Indigo/400 (_Gradient Palette.json) */
   --color-indigo-400: #8098F9;
+  /* Indigo/500 (_Gradient Palette.json) */
   --color-indigo-500: #6172F3;
+  /* Indigo/600 (_Gradient Palette.json) */
   --color-indigo-600: #444CE7;
+  /* Indigo/700 (_Gradient Palette.json) */
   --color-indigo-700: #3538CD;
+  /* Indigo/800 (_Gradient Palette.json) */
   --color-indigo-800: #2D31A6;
+  /* Indigo/900 (_Gradient Palette.json) */
   --color-indigo-900: #2D3282;
+  /* Indigo/950 (_Gradient Palette.json) */
   --color-indigo-950: #1F235B;
+  /* Pink/25 (_Gradient Palette.json) */
   --color-pink-25: #FEF6FB;
+  /* Pink/50 (_Gradient Palette.json) */
   --color-pink-50: #FDF2FA;
+  /* Pink/100 (_Gradient Palette.json) */
   --color-pink-100: #FCE7F6;
+  /* Pink/200 (_Gradient Palette.json) */
   --color-pink-200: #FCCEEE;
+  /* Pink/300 (_Gradient Palette.json) */
   --color-pink-300: #FAA7E0;
+  /* Pink/400 (_Gradient Palette.json) */
   --color-pink-400: #F670C7;
+  /* Pink/500 (_Gradient Palette.json) */
   --color-pink-500: #EE46BC;
+  /* Pink/600 (_Gradient Palette.json) */
   --color-pink-600: #DD2590;
+  /* Pink/700 (_Gradient Palette.json) */
   --color-pink-700: #C11574;
+  /* Pink/800 (_Gradient Palette.json) */
   --color-pink-800: #9E165F;
+  /* Pink/900 (_Gradient Palette.json) */
   --color-pink-900: #851651;
+  /* Pink/950 (_Gradient Palette.json) */
   --color-pink-950: #4E0D30;
+  /* Rosé/25 (_Gradient Palette.json) */
   --color-rosé-25: #FFF5F6;
+  /* Rosé/50 (_Gradient Palette.json) */
   --color-rosé-50: #FFF1F3;
+  /* Rosé/100 (_Gradient Palette.json) */
   --color-rosé-100: #FFE4E8;
+  /* Rosé/200 (_Gradient Palette.json) */
   --color-rosé-200: #FECDD6;
+  /* Rosé/300 (_Gradient Palette.json) */
   --color-rosé-300: #FEA3B4;
+  /* Rosé/400 (_Gradient Palette.json) */
   --color-rosé-400: #FD6F8E;
+  /* Rosé/500 (_Gradient Palette.json) */
   --color-rosé-500: #F63D68;
+  /* Rosé/600 (_Gradient Palette.json) */
   --color-rosé-600: #E31B54;
+  /* Rosé/700 (_Gradient Palette.json) */
   --color-rosé-700: #C01048;
+  /* Rosé/800 (_Gradient Palette.json) */
   --color-rosé-800: #A11043;
+  /* Rosé/900 (_Gradient Palette.json) */
   --color-rosé-900: #89123E;
+  /* Rosé/950 (_Gradient Palette.json) */
   --color-rosé-950: #510B24;
+  /* Orange/25 (_Gradient Palette.json) */
   --color-orange-25: #FEFAF5;
+  /* Orange/50 (_Gradient Palette.json) */
   --color-orange-50: #FEF6EE;
+  /* Orange/100 (_Gradient Palette.json) */
   --color-orange-100: #FDEAD7;
+  /* Orange/200 (_Gradient Palette.json) */
   --color-orange-200: #F9DBAF;
+  /* Orange/300 (_Gradient Palette.json) */
   --color-orange-300: #F7B27A;
+  /* Orange/400 (_Gradient Palette.json) */
   --color-orange-400: #F38744;
+  /* Orange/500 (_Gradient Palette.json) */
   --color-orange-500: #EF6820;
+  /* Orange/600 (_Gradient Palette.json) */
   --color-orange-600: #E04F16;
+  /* Orange/700 (_Gradient Palette.json) */
   --color-orange-700: #B93815;
+  /* Orange/800 (_Gradient Palette.json) */
   --color-orange-800: #932F19;
+  /* Orange/900 (_Gradient Palette.json) */
   --color-orange-900: #772917;
+  /* Orange/950 (_Gradient Palette.json) */
   --color-orange-950: #511C10;
+  /* Amber/50 (_Gradient Palette.json) */
   --color-amber-50: #FEFBE8;
+  /* Amber/100 (_Gradient Palette.json) */
   --color-amber-100: #FEF7C3;
+  /* Amber/200 (_Gradient Palette.json) */
   --color-amber-200: #FEEE95;
+  /* Amber/300 (_Gradient Palette.json) */
   --color-amber-300: #FDE272;
+  /* Amber/400 (_Gradient Palette.json) */
   --color-amber-400: #FAC515;
+  /* Amber/500 (_Gradient Palette.json) */
   --color-amber-500: #EAAA08;
+  /* Amber/600 (_Gradient Palette.json) */
   --color-amber-600: #CA8504;
+  /* Amber/700 (_Gradient Palette.json) */
   --color-amber-700: #A15C07;
+  /* Amber/800 (_Gradient Palette.json) */
   --color-amber-800: #854A0E;
+  /* Amber/900 (_Gradient Palette.json) */
   --color-amber-900: #713B12;
+  /* Amber/950 (_Gradient Palette.json) */
   --color-amber-950: #542C0D;
+  /* Purple/25 (_Gradient Palette.json) */
   --color-purple-25: #FAFAFF;
+  /* Purple/50 (_Gradient Palette.json) */
   --color-purple-50: #F4F3FF;
+  /* Purple/100 (_Gradient Palette.json) */
   --color-purple-100: #EBE9FE;
+  /* Purple/200 (_Gradient Palette.json) */
   --color-purple-200: #D9D6FE;
+  /* Purple/300 (_Gradient Palette.json) */
   --color-purple-300: #BDB4FE;
+  /* Purple/400 (_Gradient Palette.json) */
   --color-purple-400: #BDB4FE;
+  /* Purple/500 (_Gradient Palette.json) */
   --color-purple-500: #7A5AF8;
+  /* Purple/600 (_Gradient Palette.json) */
   --color-purple-600: #6938EF;
+  /* Purple/700 (_Gradient Palette.json) */
   --color-purple-700: #5925DC;
+  /* Purple/800 (_Gradient Palette.json) */
   --color-purple-800: #4A1FB8;
+  /* Purple/900 (_Gradient Palette.json) */
   --color-purple-900: #3E1C96;
+  /* Purple/950 (_Gradient Palette.json) */
   --color-purple-950: #27115F;
+  /* Amber/25 (_Gradient Palette.json) */
   --color-amber-25: #FEFDF0;
+  /* Sky Blue/25 (_Gradient Palette.json) */
   --color-sky-blue-25: #F5FAFF;
+  /* Sky Blue/50 (_Gradient Palette.json) */
   --color-sky-blue-50: #EFF8FF;
+  /* Sky Blue/100 (_Gradient Palette.json) */
   --color-sky-blue-100: #D1E9FF;
+  /* Sky Blue/200 (_Gradient Palette.json) */
   --color-sky-blue-200: #B2DDFF;
+  /* Sky Blue/300 (_Gradient Palette.json) */
   --color-sky-blue-300: #84CAFF;
+  /* Sky Blue/400 (_Gradient Palette.json) */
   --color-sky-blue-400: #53B1FD;
+  /* Sky Blue/500 (_Gradient Palette.json) */
   --color-sky-blue-500: #2E90FA;
+  /* Sky Blue/600 (_Gradient Palette.json) */
   --color-sky-blue-600: #1570EF;
+  /* Sky Blue/700 (_Gradient Palette.json) */
   --color-sky-blue-700: #175CD3;
+  /* Sky Blue/800 (_Gradient Palette.json) */
   --color-sky-blue-800: #1849A9;
+  /* Sky Blue/900 (_Gradient Palette.json) */
   --color-sky-blue-900: #194185;
+  /* Sky Blue/950 (_Gradient Palette.json) */
   --color-sky-blue-950: #102A56;
+}
+
+/* 暗色主题变量 */
+:root[data-theme="dark"] {
+  /* Surface/Primary/Default (Design Token.json) */
+  --color-surface-primary-default-dark: #5974FF;
+  /* Surface/Primary/Hovered (Design Token.json) */
+  --color-surface-primary-hovered-dark: #2B48D8;
+  /* Surface/Primary/Pressed (Design Token.json) */
+  --color-surface-primary-pressed-dark: #1B35B6;
+  /* Text/Default (Design Token.json) */
+  --color-text-default-dark: #FFFFFF;
+  /* Text/Subtler (Design Token.json) */
+  --color-text-subtler-dark: #868996;
+  /* Text/Disabled (Design Token.json) */
+  --color-text-disabled-dark: #54565E;
+  /* Surface/Default (Design Token.json) */
+  --color-surface-default-dark: #1C1E26;
+  /* Surface/Subtle (Design Token.json) */
+  --color-surface-subtle-dark: #22242E;
+  /* Surface/Container/Default (Design Token.json) */
+  --color-surface-container-default-dark: #17181C;
+  /* Border/Default (Design Token.json) */
+  --color-border-default-dark: #2D2E33;
+  /* Surface/Success/Default (Design Token.json) */
+  --color-surface-success-default-dark: #12D687;
+  /* Surface/Success/Hovered (Design Token.json) */
+  --color-surface-success-hovered-dark: #0DCC7F;
+  /* Surface/Critical/Default (Design Token.json) */
+  --color-surface-critical-default-dark: #D72C0D;
+  /* Border/Critical (Design Token.json) */
+  --color-border-critical-dark: #FD5749;
+  /* Surface/Critical/Hovered (Design Token.json) */
+  --color-surface-critical-hovered-dark: #BC2200;
+  /* Surface/Critical/Pressed (Design Token.json) */
+  --color-surface-critical-pressed-dark: #A21B00;
+  /* Text/Warning/Default (Design Token.json) */
+  --color-text-warning-default-dark: #FFC453;
+  /* Surface/Warning/Default (Design Token.json) */
+  --color-surface-warning-default-dark: #FDA500;
+  /* Surface/Lemon/Bold (Design Token.json) */
+  --color-surface-lemon-bold-dark: #FFE86B;
+  /* Surface/Lemon/Default (Design Token.json) */
+  --color-surface-lemon-default-dark: #A48F07;
+  /* Surface/Lemon/Subtle (Design Token.json) */
+  --color-surface-lemon-subtle-dark: #454127;
+  /* Border/Hovered (Design Token.json) */
+  --color-border-hovered-dark: #42434A;
+  /* Surface/Hovered (Design Token.json) */
+  --color-surface-hovered-dark: #232533;
+  /* Surface/Disabled (Design Token.json) */
+  --color-surface-disabled-dark: #22242E;
+  /* Surface/Pressed (Design Token.json) */
+  --color-surface-pressed-dark: #2B2E3B;
+  /* Border/Pressed (Design Token.json) */
+  --color-border-pressed-dark: #54565E;
+  /* Text/Subtlest (Design Token.json) */
+  --color-text-subtlest-dark: #666873;
+  /* Surface/Critical/Subtle/Hovered (Design Token.json) */
+  --color-surface-critical-subtle-hovered-dark: #4F2E2C;
+  /* Surface/Critical/Subtle/Pressed (Design Token.json) */
+  --color-surface-critical-subtle-pressed-dark: #612E2B;
+  /* Surface/Primary/Subtle/Default (Design Token.json) */
+  --color-surface-primary-subtle-default-dark: #2B3561;
+  /* Surface/Success/Pressed (Design Token.json) */
+  --color-surface-success-pressed-dark: #0BB26F;
+  /* Surface/Success/Subtle/Default (Design Token.json) */
+  --color-surface-success-subtle-default-dark: #293830;
+  /* Surface/Info/Default (Design Token.json) */
+  --color-surface-info-default-dark: #0DA8FC;
+  /* Surface/Info/Hovered (Design Token.json) */
+  --color-surface-info-hovered-dark: #2096D6;
+  /* Surface/Info/Subtle/Default (Design Token.json) */
+  --color-surface-info-subtle-default-dark: #293338;
+  /* Surface/Container/Hovered (Design Token.json) */
+  --color-surface-container-hovered-dark: #27282C;
+  /* Border/Depressed (Design Token.json) */
+  --color-border-depressed-dark: #666873;
+  /* Surface/Warning/Subtle/Default (Design Token.json) */
+  --color-surface-warning-subtle-default-dark: #383029;
+  /* Border/Warning/Subtle (Design Token.json) */
+  --color-border-warning-subtle-dark: #E1B878;
+  /* Alpha/Facetime/White (Design Token.json) */
+  --color-alpha-facetime-white-dark: #00000033;
+  /* Alpha/Facetime/Black (Design Token.json) */
+  --color-alpha-facetime-black-dark: #FFFFFF33;
+  /* Text/Subtle (Design Token.json) */
+  --color-text-subtle-dark: #B8BCCF;
+  /* Text/Critical/Default (Design Token.json) */
+  --color-text-critical-default-dark: #FD5749;
+  /* Text/Success/Default (Design Token.json) */
+  --color-text-success-default-dark: #1BCF75;
+  /* Icon/Default (Design Token.json) */
+  --color-icon-default-dark: #B8BCCF;
+  /* Icon/Subtle (Design Token.json) */
+  --color-icon-subtle-dark: #868996;
+  /* Icon/Subtlest (Design Token.json) */
+  --color-icon-subtlest-dark: #5C5F62;
+  /* Icon/Disabled (Design Token.json) */
+  --color-icon-disabled-dark: #54565E;
+  /* Icon/Inverse (Design Token.json) */
+  --color-icon-inverse-dark: #414345;
+  /* Icon/Critical (Design Token.json) */
+  --color-icon-critical-dark: #FD5749;
+  /* Icon/Warning (Design Token.json) */
+  --color-icon-warning-dark: #FFC453;
+  /* Icon/Success (Design Token.json) */
+  --color-icon-success-dark: #1BCF75;
+  /* Surface/Container/Pressed (Design Token.json) */
+  --color-surface-container-pressed-dark: #2D2E33;
+  /* Surface/SearchField (Design Token.json) */
+  --color-surface-searchfield-dark: #22242E;
+  /* Surface/Warning/Subtle/Hovered (Design Token.json) */
+  --color-surface-warning-subtle-hovered-dark: #4F3E2C;
+  /* Surface/Warning/Subtle/Pressed (Design Token.json) */
+  --color-surface-warning-subtle-pressed-dark: #61472B;
+  /* Surface/Critical/Subtle/Default (Design Token.json) */
+  --color-surface-critical-subtle-default-dark: #382A29;
+  /* Surface/Success/Subtle/Hovered (Design Token.json) */
+  --color-surface-success-subtle-hovered-dark: #2C4F3E;
+  /* Surface/Success/Subtle/Pressed (Design Token.json) */
+  --color-surface-success-subtle-pressed-dark: #2B6147;
+  /* Surface/Primary/Subtle/Hovered (Design Token.json) */
+  --color-surface-primary-subtle-hovered-dark: #2D3770;
+  /* Surface/Primary/Subtle/Pressed (Design Token.json) */
+  --color-surface-primary-subtle-pressed-dark: #354285;
+  /* Surface/Warning/Hovered (Design Token.json) */
+  --color-surface-warning-hovered-dark: #E8A900;
+  /* Surface/Warning/Pressed (Design Token.json) */
+  --color-surface-warning-pressed-dark: #B98900;
+  /* Border/Warning/Default (Design Token.json) */
+  --color-border-warning-default-dark: #B98900;
+  /* Border/Success (Design Token.json) */
+  --color-border-success-dark: #12D687;
+  /* Surface/Info/Pressed (Design Token.json) */
+  --color-surface-info-pressed-dark: #2980AF;
+  /* Surface/Info/Subtle/Hovered (Design Token.json) */
+  --color-surface-info-subtle-hovered-dark: #2C434F;
+  /* Surface/Info/Subtle/Pressed (Design Token.json) */
+  --color-surface-info-subtle-pressed-dark: #2B4F61;
+  /* Text/Success/Bolder (Design Token.json) */
+  --color-text-success-bolder-dark: #BAF9D9;
+  /* Text/Warning/Bolder (Design Token.json) */
+  --color-text-warning-bolder-dark: #FFE6BB;
+  /* Text/Critical/Bolder (Design Token.json) */
+  --color-text-critical-bolder-dark: #FED3D1;
+  /* Surface/Accent/Red/Subtlest (Design Token.json) */
+  --color-surface-accent-red-subtlest-dark: #382A29;
+  /* Surface/Accent/Red/Bolder (Design Token.json) */
+  --color-surface-accent-red-bolder-dark: #CF371C;
+  /* Surface/Accent/Red/Subtler (Design Token.json) */
+  --color-surface-accent-red-subtler-dark: #4F2E2C;
+  /* Surface/Accent/Red/Subtle (Design Token.json) */
+  --color-surface-accent-red-subtle-dark: #612E2B;
+  /* Surface/Accent/Yellow/Subtlest (Design Token.json) */
+  --color-surface-accent-yellow-subtlest-dark: #383029;
+  /* Surface/Accent/Yellow/Subtler (Design Token.json) */
+  --color-surface-accent-yellow-subtler-dark: #4F3E2C;
+  /* Surface/Accent/Yellow/Subtle (Design Token.json) */
+  --color-surface-accent-yellow-subtle-dark: #61472B;
+  /* Surface/Accent/Yellow/Bolder (Design Token.json) */
+  --color-surface-accent-yellow-bolder-dark: #CF9E1B;
+  /* Surface/Accent/Blue/Subtlest (Design Token.json) */
+  --color-surface-accent-blue-subtlest-dark: #292C38;
+  /* Surface/Accent/Blue/Subtler (Design Token.json) */
+  --color-surface-accent-blue-subtler-dark: #2C334F;
+  /* Surface/Accent/Blue/Subtle (Design Token.json) */
+  --color-surface-accent-blue-subtle-dark: #2B3561;
+  /* Surface/Accent/Blue/Bolder (Design Token.json) */
+  --color-surface-accent-blue-bolder-dark: #1B39CF;
+  /* Surface/Accent/Gray/Subtlest (Design Token.json) */
+  --color-surface-accent-gray-subtlest-dark: #323339;
+  /* Surface/Accent/Gray/Subtler (Design Token.json) */
+  --color-surface-accent-gray-subtler-dark: #42434A;
+  /* Surface/Accent/Gray/Subtle (Design Token.json) */
+  --color-surface-accent-gray-subtle-dark: #54565E;
+  /* Surface/Accent/Gray/Bolder (Design Token.json) */
+  --color-surface-accent-gray-bolder-dark: #666873;
+  /* Surface/Accent/Aqua/Subtlest (Design Token.json) */
+  --color-surface-accent-aqua-subtlest-dark: #293338;
+  /* Surface/Accent/Aqua/Subtler (Design Token.json) */
+  --color-surface-accent-aqua-subtler-dark: #2C434F;
+  /* Surface/Accent/Aqua/Subtle (Design Token.json) */
+  --color-surface-accent-aqua-subtle-dark: #2B4F61;
+  /* Surface/Accent/Aqua/Bolder (Design Token.json) */
+  --color-surface-accent-aqua-bolder-dark: #1B93CF;
+  /* Surface/Accent/Green/Subtlest (Design Token.json) */
+  --color-surface-accent-green-subtlest-dark: #293830;
+  /* Surface/Accent/Green/Subtler (Design Token.json) */
+  --color-surface-accent-green-subtler-dark: #2C4F3E;
+  /* Surface/Accent/Green/Subtle (Design Token.json) */
+  --color-surface-accent-green-subtle-dark: #2B6147;
+  /* Surface/Accent/Green/Bolder (Design Token.json) */
+  --color-surface-accent-green-bolder-dark: #1BCF75;
+  /* Text/Brand (Design Token.json) */
+  --color-text-brand-dark: #5974FF;
+  /* Icon/Brand (Design Token.json) */
+  --color-icon-brand-dark: #5974FF;
+  /* Border/Brand (Design Token.json) */
+  --color-border-brand-dark: #5974FF;
+  /* Alpha/Mask/Desktop (Design Token.json) */
+  --color-alpha-mask-desktop-dark: #000000BF;
+  /* Surface/Container/Selected/Default (Design Token.json) */
+  --color-surface-container-selected-default-dark: #232533;
+  /* Surface/Container/Selected/Hovered (Design Token.json) */
+  --color-surface-container-selected-hovered-dark: #383C52;
+  /* Surface/Container/Selected/Pressed (Design Token.json) */
+  --color-surface-container-selected-pressed-dark: #464B66;
+  /* Surface/Inverse (Design Token.json) */
+  --color-surface-inverse-dark: #FFFFFF;
+  /* Surface/Lemon/Subtlest (Design Token.json) */
+  --color-surface-lemon-subtlest-dark: #24210B;
+  /* Alpha/Mask/Mobile (Design Token.json) */
+  --color-alpha-mask-mobile-dark: #000000BF;
+  /* Text/Static/White (Design Token.json) */
+  --color-text-static-white-dark: #FFFFFF;
+  /* Surface/Static/White (Design Token.json) */
+  --color-surface-static-white-dark: #FFFFFF;
+  /* Icon/Static/White (Design Token.json) */
+  --color-icon-static-white-dark: #FFFFFF;
+  /* Alpha/Facetime/Static (Design Token.json) */
+  --color-alpha-facetime-static-dark: #00000033;
+  /* Border/Bolder (Design Token.json) */
+  --color-border-bolder-dark: #42434A;
+  /* Border/Opaque (Design Token.json) */
+  --color-border-opaque-dark: #FFFFFF0D;
+  /* Shadows/Surface/Default (Design Token.json) */
+  --color-shadows-surface-default-dark: #FFFFFF0D;
+  /* Shadows/Surface/Bolder (Design Token.json) */
+  --color-shadows-surface-bolder-dark: #FFFFFF08;
+  /* Shadows/Modal/Default&Bolder (Design Token.json) */
+  --color-shadows-modal-defaultandbolder-dark: #FFFFFF03;
+  /* Shadows/Button/Basic (Design Token.json) */
+  --color-shadows-button-basic-dark: #FFFFFF0D;
+  /* Shadows/Button/Primary-1 (Design Token.json) */
+  --color-shadows-button-primary-1-dark: #FFFFFF14;
+  /* Shadows/Button/Primary-2 (Design Token.json) */
+  --color-shadows-button-primary-2-dark: #FFFFFF33;
+  /* Shadows/Button/Pressed (Design Token.json) */
+  --color-shadows-button-pressed-dark: #FFFFFF1A;
+  /* Focus rings/Brand (Design Token.json) */
+  --color-focus-rings-brand-dark: #458FFF;
+  /* Focus rings/Error (Design Token.json) */
+  --color-focus-rings-error-dark: #FF5353;
+  /* Surface/None (Design Token.json) */
+  --color-surface-none-dark: #FFFFFF00;
+  /* Text/Static/Black (Design Token.json) */
+  --color-text-static-black-dark: #202223;
+  /* Icon/Static/Black (Design Token.json) */
+  --color-icon-static-black-dark: #414345;
+  /* Surface/Static/Black (Design Token.json) */
+  --color-surface-static-black-dark: #1A1C1D;
+  /* Alpha/White-10 (Design Token.json) */
+  --color-alpha-white-10-dark: #0000001A;
+  /* Alpha/White-5 (Design Token.json) */
+  --color-alpha-white-5-dark: #0000000D;
+  /* Alpha/White-20 (Design Token.json) */
+  --color-alpha-white-20-dark: #00000033;
+  /* Alpha/White-30 (Design Token.json) */
+  --color-alpha-white-30-dark: #0000004D;
+  /* Alpha/White-40 (Design Token.json) */
+  --color-alpha-white-40-dark: #00000066;
+  /* Alpha/White-50 (Design Token.json) */
+  --color-alpha-white-50-dark: #00000080;
+  /* Alpha/White-60 (Design Token.json) */
+  --color-alpha-white-60-dark: #00000099;
+  /* Alpha/White-70 (Design Token.json) */
+  --color-alpha-white-70-dark: #000000B2;
+  /* Alpha/White-80 (Design Token.json) */
+  --color-alpha-white-80-dark: #000000CC;
+  /* Alpha/White-90 (Design Token.json) */
+  --color-alpha-white-90-dark: #000000E5;
+  /* Alpha/White-100 (Design Token.json) */
+  --color-alpha-white-100-dark: #000000;
+  /* Alpha/White-1 (Design Token.json) */
+  --color-alpha-white-1-dark: #00000003;
+  /* Alpha/White-3 (Design Token.json) */
+  --color-alpha-white-3-dark: #00000008;
+  /* Alpha/White-8 (Design Token.json) */
+  --color-alpha-white-8-dark: #00000014;
+  /* Alpha/Black-1 (Design Token.json) */
+  --color-alpha-black-1-dark: #FFFFFF03;
+  /* Alpha/Black-3 (Design Token.json) */
+  --color-alpha-black-3-dark: #FFFFFF08;
+  /* Alpha/Black-5 (Design Token.json) */
+  --color-alpha-black-5-dark: #FFFFFF0D;
+  /* Alpha/Black-8 (Design Token.json) */
+  --color-alpha-black-8-dark: #FFFFFF14;
+  /* Alpha/Black-10 (Design Token.json) */
+  --color-alpha-black-10-dark: #FFFFFF1A;
+  /* Alpha/Black-20 (Design Token.json) */
+  --color-alpha-black-20-dark: #FFFFFF33;
+  /* Alpha/Black-30 (Design Token.json) */
+  --color-alpha-black-30-dark: #FFFFFF4D;
+  /* Alpha/Black-40 (Design Token.json) */
+  --color-alpha-black-40-dark: #FFFFFF66;
+  /* Alpha/Black-50 (Design Token.json) */
+  --color-alpha-black-50-dark: #FFFFFF80;
+  /* Alpha/Black-60 (Design Token.json) */
+  --color-alpha-black-60-dark: #FFFFFF99;
+  /* Alpha/Black-70 (Design Token.json) */
+  --color-alpha-black-70-dark: #FFFFFFB2;
+  /* Alpha/Black-80 (Design Token.json) */
+  --color-alpha-black-80-dark: #FFFFFFCC;
+  /* Alpha/Black-90 (Design Token.json) */
+  --color-alpha-black-90-dark: #FFFFFFE5;
+  /* Alpha/Black-100 (Design Token.json) */
+  --color-alpha-black-100-dark: #FFFFFF;
+  /* Text/Static/Brand (Design Token.json) */
+  --color-text-static-brand-dark: #3E5CFA;
+  /* Icon/Static/Brand (Design Token.json) */
+  --color-icon-static-brand-dark: #3E5CFA;
+  /* Border/Static (Design Token.json) */
+  --color-border-static-dark: #E4E9F0;
+  /* Text/Inverse (Design Token.json) */
+  --color-text-inverse-dark: #202223;
+  /* Beta/White-1 (Design Token.json) */
+  --color-beta-white-1-dark: #FFFFFF03;
+  /* Beta/White-3 (Design Token.json) */
+  --color-beta-white-3-dark: #FFFFFF08;
+  /* Beta/White-5 (Design Token.json) */
+  --color-beta-white-5-dark: #FFFFFF0D;
+  /* Beta/White-8 (Design Token.json) */
+  --color-beta-white-8-dark: #FFFFFF14;
+  /* Beta/White-10 (Design Token.json) */
+  --color-beta-white-10-dark: #FFFFFF1A;
+  /* Beta/White-20 (Design Token.json) */
+  --color-beta-white-20-dark: #FFFFFF33;
+  /* Beta/White-30 (Design Token.json) */
+  --color-beta-white-30-dark: #FFFFFF4D;
+  /* Beta/White-40 (Design Token.json) */
+  --color-beta-white-40-dark: #FFFFFF66;
+  /* Beta/White-50 (Design Token.json) */
+  --color-beta-white-50-dark: #FFFFFF80;
+  /* Beta/White-60 (Design Token.json) */
+  --color-beta-white-60-dark: #FFFFFF99;
+  /* Beta/White-70 (Design Token.json) */
+  --color-beta-white-70-dark: #FFFFFFB2;
+  /* Beta/White-80 (Design Token.json) */
+  --color-beta-white-80-dark: #FFFFFFCC;
+  /* Beta/White-90 (Design Token.json) */
+  --color-beta-white-90-dark: #FFFFFFE5;
+  /* Beta/White-100 (Design Token.json) */
+  --color-beta-white-100-dark: #FFFFFF;
+  /* Beta/Black-1 (Design Token.json) */
+  --color-beta-black-1-dark: #00000003;
+  /* Beta/Black-3 (Design Token.json) */
+  --color-beta-black-3-dark: #00000008;
+  /* Beta/Black-5 (Design Token.json) */
+  --color-beta-black-5-dark: #0000000D;
+  /* Beta/Black-8 (Design Token.json) */
+  --color-beta-black-8-dark: #00000014;
+  /* Beta/Black-10 (Design Token.json) */
+  --color-beta-black-10-dark: #0000001A;
+  /* Beta/Black-20 (Design Token.json) */
+  --color-beta-black-20-dark: #00000033;
+  /* Beta/Black-30 (Design Token.json) */
+  --color-beta-black-30-dark: #0000004D;
+  /* Beta/Black-40 (Design Token.json) */
+  --color-beta-black-40-dark: #00000066;
+  /* Beta/Black-50 (Design Token.json) */
+  --color-beta-black-50-dark: #00000080;
+  /* Beta/Black-60 (Design Token.json) */
+  --color-beta-black-60-dark: #00000099;
+  /* Beta/Black-70 (Design Token.json) */
+  --color-beta-black-70-dark: #000000B2;
+  /* Beta/Black-80 (Design Token.json) */
+  --color-beta-black-80-dark: #000000CC;
+  /* Beta/Black-90 (Design Token.json) */
+  --color-beta-black-90-dark: #000000E5;
+  /* Beta/Black-100 (Design Token.json) */
+  --color-beta-black-100-dark: #000000;
+  /* Utility/Moss/50 (Design Token.json) */
+  --color-utility-moss-50-dark: #1A280B;
+  /* Utility/Moss/100 (Design Token.json) */
+  --color-utility-moss-100-dark: #2B4212;
+  /* Utility/Moss/200 (Design Token.json) */
+  --color-utility-moss-200-dark: #335015;
+  /* Utility/Moss/300 (Design Token.json) */
+  --color-utility-moss-300-dark: #3F621A;
+  /* Utility/Moss/400 (Design Token.json) */
+  --color-utility-moss-400-dark: #4F7A21;
+  /* Utility/Moss/500 (Design Token.json) */
+  --color-utility-moss-500-dark: #669F2A;
+  /* Utility/Moss/600 (Design Token.json) */
+  --color-utility-moss-600-dark: #86CB3C;
+  /* Utility/Moss/700 (Design Token.json) */
+  --color-utility-moss-700-dark: #ACDC79;
+  /* Utility/Teal/50 (Design Token.json) */
+  --color-utility-teal-50-dark: #0A2926;
+  /* Utility/Teal/100 (Design Token.json) */
+  --color-utility-teal-100-dark: #134E48;
+  /* Utility/Teal/200 (Design Token.json) */
+  --color-utility-teal-200-dark: #125D56;
+  /* Utility/Teal/300 (Design Token.json) */
+  --color-utility-teal-300-dark: #107569;
+  /* Utility/Teal/400 (Design Token.json) */
+  --color-utility-teal-400-dark: #0E9384;
+  /* Utility/Teal/500 (Design Token.json) */
+  --color-utility-teal-500-dark: #15B79E;
+  /* Utility/Teal/600 (Design Token.json) */
+  --color-utility-teal-600-dark: #2ED3B7;
+  /* Utility/Teal/700 (Design Token.json) */
+  --color-utility-teal-700-dark: #5FE9D0;
+  /* Utility/Cyan/50 (Design Token.json) */
+  --color-utility-cyan-50-dark: #0D2D3A;
+  /* Utility/Cyan/100 (Design Token.json) */
+  --color-utility-cyan-100-dark: #164C63;
+  /* Utility/Cyan/200 (Design Token.json) */
+  --color-utility-cyan-200-dark: #155B75;
+  /* Utility/Cyan/300 (Design Token.json) */
+  --color-utility-cyan-300-dark: #0E7090;
+  /* Utility/Cyan/400 (Design Token.json) */
+  --color-utility-cyan-400-dark: #088AB2;
+  /* Utility/Cyan/500 (Design Token.json) */
+  --color-utility-cyan-500-dark: #06AED4;
+  /* Utility/Cyan/600 (Design Token.json) */
+  --color-utility-cyan-600-dark: #22CCEE;
+  /* Utility/Cyan/700 (Design Token.json) */
+  --color-utility-cyan-700-dark: #67E3F9;
+  /* Utility/Indigo/50 (Design Token.json) */
+  --color-utility-indigo-50-dark: #1F235B;
+  /* Utility/Indigo/100 (Design Token.json) */
+  --color-utility-indigo-100-dark: #2D3282;
+  /* Utility/Indigo/200 (Design Token.json) */
+  --color-utility-indigo-200-dark: #2D31A6;
+  /* Utility/Indigo/300 (Design Token.json) */
+  --color-utility-indigo-300-dark: #3538CD;
+  /* Utility/Indigo/400 (Design Token.json) */
+  --color-utility-indigo-400-dark: #444CE7;
+  /* Utility/Indigo/500 (Design Token.json) */
+  --color-utility-indigo-500-dark: #6172F3;
+  /* Utility/Indigo/600 (Design Token.json) */
+  --color-utility-indigo-600-dark: #8098F9;
+  /* Utility/Indigo/700 (Design Token.json) */
+  --color-utility-indigo-700-dark: #A4BCFD;
+  /* Utility/Purple/50 (Design Token.json) */
+  --color-utility-purple-50-dark: #27115F;
+  /* Utility/Purple/100 (Design Token.json) */
+  --color-utility-purple-100-dark: #3E1C96;
+  /* Utility/Purple/200 (Design Token.json) */
+  --color-utility-purple-200-dark: #4A1FB8;
+  /* Utility/Purple/300 (Design Token.json) */
+  --color-utility-purple-300-dark: #5925DC;
+  /* Utility/Purple/400 (Design Token.json) */
+  --color-utility-purple-400-dark: #6938EF;
+  /* Utility/Purple/500 (Design Token.json) */
+  --color-utility-purple-500-dark: #7A5AF8;
+  /* Utility/Purple/600 (Design Token.json) */
+  --color-utility-purple-600-dark: #BDB4FE;
+  /* Utility/Purple/700 (Design Token.json) */
+  --color-utility-purple-700-dark: #BDB4FE;
+  /* Utility/Pink/50 (Design Token.json) */
+  --color-utility-pink-50-dark: #4E0D30;
+  /* Utility/Pink/100 (Design Token.json) */
+  --color-utility-pink-100-dark: #851651;
+  /* Utility/Pink/200 (Design Token.json) */
+  --color-utility-pink-200-dark: #9E165F;
+  /* Utility/Pink/300 (Design Token.json) */
+  --color-utility-pink-300-dark: #C11574;
+  /* Utility/Pink/400 (Design Token.json) */
+  --color-utility-pink-400-dark: #DD2590;
+  /* Utility/Pink/500 (Design Token.json) */
+  --color-utility-pink-500-dark: #EE46BC;
+  /* Utility/Pink/600 (Design Token.json) */
+  --color-utility-pink-600-dark: #F670C7;
+  /* Utility/Pink/700 (Design Token.json) */
+  --color-utility-pink-700-dark: #FAA7E0;
+  /* Utility/Rosé/50 (Design Token.json) */
+  --color-utility-rosé-50-dark: #510B24;
+  /* Utility/Rosé/100 (Design Token.json) */
+  --color-utility-rosé-100-dark: #89123E;
+  /* Utility/Rosé/200 (Design Token.json) */
+  --color-utility-rosé-200-dark: #A11043;
+  /* Utility/Rosé/300 (Design Token.json) */
+  --color-utility-rosé-300-dark: #C01048;
+  /* Utility/Rosé/400 (Design Token.json) */
+  --color-utility-rosé-400-dark: #E31B54;
+  /* Utility/Rosé/500 (Design Token.json) */
+  --color-utility-rosé-500-dark: #F63D68;
+  /* Utility/Rosé/600 (Design Token.json) */
+  --color-utility-rosé-600-dark: #FD6F8E;
+  /* Utility/Rosé/700 (Design Token.json) */
+  --color-utility-rosé-700-dark: #FEA3B4;
+  /* Utility/Orange/50 (Design Token.json) */
+  --color-utility-orange-50-dark: #511C10;
+  /* Utility/Orange/100 (Design Token.json) */
+  --color-utility-orange-100-dark: #772917;
+  /* Utility/Orange/200 (Design Token.json) */
+  --color-utility-orange-200-dark: #932F19;
+  /* Utility/Orange/300 (Design Token.json) */
+  --color-utility-orange-300-dark: #B93815;
+  /* Utility/Orange/400 (Design Token.json) */
+  --color-utility-orange-400-dark: #E04F16;
+  /* Utility/Orange/500 (Design Token.json) */
+  --color-utility-orange-500-dark: #EF6820;
+  /* Utility/Orange/600 (Design Token.json) */
+  --color-utility-orange-600-dark: #F38744;
+  /* Utility/Orange/700 (Design Token.json) */
+  --color-utility-orange-700-dark: #F7B27A;
+  /* Utility/Amber/50 (Design Token.json) */
+  --color-utility-amber-50-dark: #542C0D;
+  /* Utility/Amber/100 (Design Token.json) */
+  --color-utility-amber-100-dark: #713B12;
+  /* Utility/Amber/200 (Design Token.json) */
+  --color-utility-amber-200-dark: #854A0E;
+  /* Utility/Amber/300 (Design Token.json) */
+  --color-utility-amber-300-dark: #A15C07;
+  /* Utility/Amber/400 (Design Token.json) */
+  --color-utility-amber-400-dark: #CA8504;
+  /* Utility/Amber/500 (Design Token.json) */
+  --color-utility-amber-500-dark: #EAAA08;
+  /* Utility/Amber/600 (Design Token.json) */
+  --color-utility-amber-600-dark: #FAC515;
+  /* Utility/Amber/700 (Design Token.json) */
+  --color-utility-amber-700-dark: #FDE272;
+  /* Utility/Sky Blue/50 (Design Token.json) */
+  --color-utility-sky-blue-50-dark: #102A56;
+  /* Utility/Sky Blue/100 (Design Token.json) */
+  --color-utility-sky-blue-100-dark: #194185;
+  /* Utility/Sky Blue/200 (Design Token.json) */
+  --color-utility-sky-blue-200-dark: #1849A9;
+  /* Utility/Sky Blue/300 (Design Token.json) */
+  --color-utility-sky-blue-300-dark: #175CD3;
+  /* Utility/Sky Blue/400 (Design Token.json) */
+  --color-utility-sky-blue-400-dark: #1570EF;
+  /* Utility/Sky Blue/500 (Design Token.json) */
+  --color-utility-sky-blue-500-dark: #2E90FA;
+  /* Utility/Sky Blue/600 (Design Token.json) */
+  --color-utility-sky-blue-600-dark: #53B1FD;
+  /* Utility/Sky Blue/700 (Design Token.json) */
+  --color-utility-sky-blue-700-dark: #84CAFF;
+  /* Surface/Container/Special/Subtle (Design Token.json) */
+  --color-surface-container-special-subtle-dark: #22242E;
+  /* Surface/Container/Special/Default (Design Token.json) */
+  --color-surface-container-special-default-dark: #2B2E3B;
+  /* Surface/Container/Special/Hovered (Design Token.json) */
+  --color-surface-container-special-hovered-dark: #383C52;
 }
