@@ -73,7 +73,8 @@ tailwind config js  中注释不是放到最上面，放到每一个生成的后
 
 生成的 tailwind.config.js 的 indent 有问题
 
+---
 
+ok。既然注释已经生成对了，请将 margin  width 等其他的也添加注释吧
 
-
-
+---

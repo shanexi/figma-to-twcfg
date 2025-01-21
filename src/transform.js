@@ -85,17 +85,29 @@ function generateTailwindConfig(data) {
 
     // 添加其他配置
     output.push('      },');
-    output.push('      spacing: ' + JSON.stringify(extractSpacingConfig(data.baseJson), null, 2).replace(/\n/g, '\n      ') + ',');
-    output.push('      borderRadius: ' + JSON.stringify(extractRadiusConfig(data.baseJson), null, 2).replace(/\n/g, '\n      ') + ',');
-    output.push('      width: {},');
-    output.push('      height: {},');
-    output.push('      minWidth: {},');
-    output.push('      minHeight: {},');
-    output.push('      maxWidth: {},');
-    output.push('      maxHeight: {},');
-    output.push('      gap: ' + JSON.stringify(extractSpacingConfig(data.baseJson), null, 2).replace(/\n/g, '\n      ') + ',');
-    output.push('      padding: ' + JSON.stringify(extractSpacingConfig(data.baseJson), null, 2).replace(/\n/g, '\n      ') + ',');
-    output.push('      margin: ' + JSON.stringify(extractSpacingConfig(data.baseJson), null, 2).replace(/\n/g, '\n      '));
+
+    // 添加间距配置
+    const { spacing, comments: spacingComments } = extractSpacingConfig(data.baseJson);
+    output.push('      spacing: ' + generateConfigString(spacing, spacingComments) + ',');
+
+    // 添加圆角配置
+    const { radius, comments: radiusComments } = extractRadiusConfig(data.baseJson);
+    output.push('      borderRadius: ' + generateConfigString(radius, radiusComments) + ',');
+
+    // 添加尺寸配置
+    const { sizes: widthSizes, comments: widthComments } = extractSizeConfig(data.baseJson);
+    output.push('      width: ' + generateConfigString(widthSizes, widthComments) + ',');
+    output.push('      height: ' + generateConfigString(widthSizes, widthComments) + ',');
+    output.push('      minWidth: ' + generateConfigString(widthSizes, widthComments) + ',');
+    output.push('      minHeight: ' + generateConfigString(widthSizes, widthComments) + ',');
+    output.push('      maxWidth: ' + generateConfigString(widthSizes, widthComments) + ',');
+    output.push('      maxHeight: ' + generateConfigString(widthSizes, widthComments) + ',');
+
+    // 添加间距相关配置
+    output.push('      gap: ' + generateConfigString(spacing, spacingComments) + ',');
+    output.push('      padding: ' + generateConfigString(spacing, spacingComments) + ',');
+    output.push('      margin: ' + generateConfigString(spacing, spacingComments));
+
     output.push('    }');
     output.push('  },');
     output.push('  plugins: []');
@@ -178,46 +190,65 @@ function extractColorConfig(json, fileName) {
 // 提取间距配置
 function extractSpacingConfig(json) {
     const spacing = {};
+    const comments = [];
 
     json.variables.forEach(v => {
         if (v.name.includes('Spacing/')) {
             const name = v.name.split('/')[1].toLowerCase().replace('spacing-', '');
             const value = `${v.resolvedValuesByMode['5261:0'].resolvedValue}px`;
             spacing[name] = value;
+            comments.push(`// ${v.name} (Base.json)`);
         }
     });
 
-    return spacing;
+    return { spacing, comments };
 }
 
 // 提取圆角配置
 function extractRadiusConfig(json) {
     const radius = {};
+    const comments = [];
 
     json.variables.forEach(v => {
         if (v.name.includes('Redius/')) {
             const name = v.name.split('/')[1].toLowerCase().replace('radius-', '');
             const value = `${v.resolvedValuesByMode['5261:0'].resolvedValue}px`;
             radius[name] = value;
+            comments.push(`// ${v.name} (Base.json)`);
         }
     });
 
-    return radius;
+    return { radius, comments };
 }
 
 // 提取尺寸配置
 function extractSizeConfig(json) {
     const sizes = {};
+    const comments = [];
 
     json.variables.forEach(v => {
         if (v.name.includes('Size/')) {
             const name = v.name.split('/')[1].toLowerCase().replace('size-', '');
             const value = `${v.resolvedValuesByMode['5261:0'].resolvedValue}px`;
             sizes[name] = value;
+            comments.push(`// ${v.name} (Base.json)`);
         }
     });
 
-    return sizes;
+    return { sizes, comments };
+}
+
+// 生成配置对象字符串（带注释）
+function generateConfigString(obj, comments) {
+    const lines = ['{'];
+    Object.entries(obj).forEach(([key, value], index) => {
+        if (comments[index]) {
+            lines.push(`        ${comments[index]}`);
+        }
+        lines.push(`        ${JSON.stringify(key)}: ${JSON.stringify(value)}${index < Object.keys(obj).length - 1 ? ',' : ''}`);
+    });
+    lines.push('      }');
+    return lines.join('\n');
 }
 
 // RGBA 转 Hex

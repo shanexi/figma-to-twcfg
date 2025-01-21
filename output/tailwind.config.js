@@ -1997,102 +1997,191 @@ module.exports = {
       }
       },
       spacing: {
+        // Spacing/spacing-none (Base.json)
         "none": "0px",
+        // Spacing/spacing-xs (Base.json)
         "xs": "4px",
+        // Spacing/spacing-md (Base.json)
         "md": "8px",
+        // Spacing/spacing-lg (Base.json)
         "lg": "12px",
+        // Spacing/spacing-xl (Base.json)
         "xl": "16px",
+        // Spacing/spacing-2xl (Base.json)
         "2xl": "20px",
+        // Spacing/spacing-3xl (Base.json)
         "3xl": "24px",
+        // Spacing/spacing-4xl (Base.json)
         "4xl": "32px",
+        // Spacing/spacing-7xl (Base.json)
         "7xl": "56px",
+        // Spacing/spacing-sm (Base.json)
         "sm": "6px",
+        // Spacing/spacing-xxs (Base.json)
         "xxs": "2px",
+        // Spacing/spacing-5xl (Base.json)
         "5xl": "40px",
+        // Spacing/spacing-6xl (Base.json)
         "6xl": "48px",
+        // Spacing/spacing-8xl (Base.json)
         "8xl": "64px",
+        // Spacing/spacing-9xl (Base.json)
         "9xl": "80px",
+        // Spacing/spacing-10xl (Base.json)
         "10xl": "96px",
+        // Spacing/spacing-11xl (Base.json)
         "11xl": "128px",
+        // Spacing/spacing-12xl (Base.json)
         "12xl": "160px"
       },
       borderRadius: {
+        // Redius/radius-xl (Base.json)
         "xl": "12px",
+        // Redius/radius-4xl (Base.json)
         "4xl": "24px",
+        // Redius/radius-full (Base.json)
         "full": "9999px",
+        // Redius/radius-md (Base.json)
         "md": "6px",
+        // Redius/radius-sm (Base.json)
         "sm": "2px",
+        // Redius/radius-2xl (Base.json)
         "2xl": "16px",
+        // Redius/radius-lg (Base.json)
         "lg": "8px",
+        // Redius/radius-none (Base.json)
         "none": "0px",
+        // Redius/radius-3xl (Base.json)
         "3xl": "20px",
+        // Redius/radius-default (Base.json)
         "default": "4px",
+        // Redius/radius-5xl (Base.json)
         "5xl": "28px"
       },
-      width: {},
-      height: {},
-      minWidth: {},
-      minHeight: {},
-      maxWidth: {},
-      maxHeight: {},
+      width: {
+      },
+      height: {
+      },
+      minWidth: {
+      },
+      minHeight: {
+      },
+      maxWidth: {
+      },
+      maxHeight: {
+      },
       gap: {
+        // Spacing/spacing-none (Base.json)
         "none": "0px",
+        // Spacing/spacing-xs (Base.json)
         "xs": "4px",
+        // Spacing/spacing-md (Base.json)
         "md": "8px",
+        // Spacing/spacing-lg (Base.json)
         "lg": "12px",
+        // Spacing/spacing-xl (Base.json)
         "xl": "16px",
+        // Spacing/spacing-2xl (Base.json)
         "2xl": "20px",
+        // Spacing/spacing-3xl (Base.json)
         "3xl": "24px",
+        // Spacing/spacing-4xl (Base.json)
         "4xl": "32px",
+        // Spacing/spacing-7xl (Base.json)
         "7xl": "56px",
+        // Spacing/spacing-sm (Base.json)
         "sm": "6px",
+        // Spacing/spacing-xxs (Base.json)
         "xxs": "2px",
+        // Spacing/spacing-5xl (Base.json)
         "5xl": "40px",
+        // Spacing/spacing-6xl (Base.json)
         "6xl": "48px",
+        // Spacing/spacing-8xl (Base.json)
         "8xl": "64px",
+        // Spacing/spacing-9xl (Base.json)
         "9xl": "80px",
+        // Spacing/spacing-10xl (Base.json)
         "10xl": "96px",
+        // Spacing/spacing-11xl (Base.json)
         "11xl": "128px",
+        // Spacing/spacing-12xl (Base.json)
         "12xl": "160px"
       },
       padding: {
+        // Spacing/spacing-none (Base.json)
         "none": "0px",
+        // Spacing/spacing-xs (Base.json)
         "xs": "4px",
+        // Spacing/spacing-md (Base.json)
         "md": "8px",
+        // Spacing/spacing-lg (Base.json)
         "lg": "12px",
+        // Spacing/spacing-xl (Base.json)
         "xl": "16px",
+        // Spacing/spacing-2xl (Base.json)
         "2xl": "20px",
+        // Spacing/spacing-3xl (Base.json)
         "3xl": "24px",
+        // Spacing/spacing-4xl (Base.json)
         "4xl": "32px",
+        // Spacing/spacing-7xl (Base.json)
         "7xl": "56px",
+        // Spacing/spacing-sm (Base.json)
         "sm": "6px",
+        // Spacing/spacing-xxs (Base.json)
         "xxs": "2px",
+        // Spacing/spacing-5xl (Base.json)
         "5xl": "40px",
+        // Spacing/spacing-6xl (Base.json)
         "6xl": "48px",
+        // Spacing/spacing-8xl (Base.json)
         "8xl": "64px",
+        // Spacing/spacing-9xl (Base.json)
         "9xl": "80px",
+        // Spacing/spacing-10xl (Base.json)
         "10xl": "96px",
+        // Spacing/spacing-11xl (Base.json)
         "11xl": "128px",
+        // Spacing/spacing-12xl (Base.json)
         "12xl": "160px"
       },
       margin: {
+        // Spacing/spacing-none (Base.json)
         "none": "0px",
+        // Spacing/spacing-xs (Base.json)
         "xs": "4px",
+        // Spacing/spacing-md (Base.json)
         "md": "8px",
+        // Spacing/spacing-lg (Base.json)
         "lg": "12px",
+        // Spacing/spacing-xl (Base.json)
         "xl": "16px",
+        // Spacing/spacing-2xl (Base.json)
         "2xl": "20px",
+        // Spacing/spacing-3xl (Base.json)
         "3xl": "24px",
+        // Spacing/spacing-4xl (Base.json)
         "4xl": "32px",
+        // Spacing/spacing-7xl (Base.json)
         "7xl": "56px",
+        // Spacing/spacing-sm (Base.json)
         "sm": "6px",
+        // Spacing/spacing-xxs (Base.json)
         "xxs": "2px",
+        // Spacing/spacing-5xl (Base.json)
         "5xl": "40px",
+        // Spacing/spacing-6xl (Base.json)
         "6xl": "48px",
+        // Spacing/spacing-8xl (Base.json)
         "8xl": "64px",
+        // Spacing/spacing-9xl (Base.json)
         "9xl": "80px",
+        // Spacing/spacing-10xl (Base.json)
         "10xl": "96px",
+        // Spacing/spacing-11xl (Base.json)
         "11xl": "128px",
+        // Spacing/spacing-12xl (Base.json)
         "12xl": "160px"
       }
     }
