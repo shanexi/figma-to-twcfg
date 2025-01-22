@@ -82,5 +82,7 @@ ok。既然注释已经生成对了，请将 margin  width 等其他的也添加
 <REVERT> 针对 tailwind.config.js VARIABLE_ALIAS，直接引用最原始的变量
 > Cursor 理解错了。这一步只是重构，暂时先这样吧。有了注释也方便很多。
 
+---
+
 
 
