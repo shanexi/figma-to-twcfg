@@ -36,16 +36,37 @@ function generateTailwindConfig(data) {
                 const [category, ...nameParts] = v.name.split('/');
                 const categoryKey = category.toLowerCase().replace(/\s+/g, '-');
                 const name = nameParts.join('/').toLowerCase().replace(/%/g, 'percent');
-                const varName = formatVariableName(category, nameParts);
                 const hasDarkMode = v.resolvedValuesByMode && v.resolvedValuesByMode['6961:0'];
 
                 if (!categoryGroups[categoryKey]) {
                     categoryGroups[categoryKey] = [];
                 }
 
+                // 获取变量引用
+                let lightVar, darkVar;
+
+                // 处理亮色模式
+                if (v.valuesByMode['5823:0']?.type === 'VARIABLE_ALIAS') {
+                    const aliasName = v.resolvedValuesByMode['5823:0'].aliasName;
+                    const [aliasCategory, ...aliasNameParts] = aliasName.split('/');
+                    lightVar = formatVariableName(aliasCategory, aliasNameParts);
+                } else {
+                    lightVar = formatVariableName(category, nameParts);
+                }
+
+                // 处理暗色模式
+                if (hasDarkMode && v.valuesByMode['6961:0']?.type === 'VARIABLE_ALIAS') {
+                    const aliasName = v.resolvedValuesByMode['6961:0'].aliasName;
+                    const [aliasCategory, ...aliasNameParts] = aliasName.split('/');
+                    darkVar = formatVariableName(aliasCategory, aliasNameParts);
+                } else if (hasDarkMode) {
+                    darkVar = `${formatVariableName(category, nameParts)}-dark`;
+                }
+
                 categoryGroups[categoryKey].push({
                     name,
-                    varName,
+                    lightVar,
+                    darkVar,
                     hasDarkMode,
                     originalName: v.name,
                     fileName
@@ -54,7 +75,7 @@ function generateTailwindConfig(data) {
         });
 
         // 然后按类别输出
-        Object.entries(categoryGroups).forEach(([categoryKey, variables], categoryIndex, categories) => {
+        Object.entries(categoryGroups).forEach(([categoryKey, variables]) => {
             if (!processedCategories.has(categoryKey)) {
                 if (!isFirstCategory) {
                     output.push('      },');
@@ -64,15 +85,15 @@ function generateTailwindConfig(data) {
                 isFirstCategory = false;
             }
 
-            variables.forEach(({ name, varName, hasDarkMode, originalName, fileName }, index) => {
+            variables.forEach(({ name, lightVar, darkVar, hasDarkMode, originalName, fileName }) => {
                 output.push(`          // ${originalName} (${fileName})`);
                 if (hasDarkMode) {
                     output.push(`          ${JSON.stringify(name)}: {`);
-                    output.push(`            DEFAULT: "var(--color-${varName})",`);
-                    output.push(`            dark: "var(--color-${varName}-dark)"`);
+                    output.push(`            DEFAULT: "var(--color-${lightVar})",`);
+                    output.push(`            dark: "var(--color-${darkVar})"`);
                     output.push('          },');
                 } else {
-                    output.push(`          ${JSON.stringify(name)}: "var(--color-${varName})",`);
+                    output.push(`          ${JSON.stringify(name)}: "var(--color-${lightVar})",`);
                 }
             });
         });
@@ -116,30 +137,6 @@ function generateTailwindConfig(data) {
     return output.join('\n');
 }
 
-// 为颜色对象添加注释
-function addCommentsToColors(colors, comments) {
-    const result = {};
-    const commentMap = new Map(comments.map(comment => {
-        const name = comment.split(' (')[0].substring(3);
-        return [name, comment];
-    }));
-
-    for (const [category, values] of Object.entries(colors)) {
-        result[category] = {};
-        for (const [key, value] of Object.entries(values)) {
-            const fullKey = `${category}/${key}`;
-            const comment = commentMap.get(fullKey);
-            if (comment) {
-                result[category][`${key} /* ${comment} */`] = value;
-            } else {
-                result[category][key] = value;
-            }
-        }
-    }
-
-    return result;
-}
-
 // 处理变量名
 function formatVariableName(category, nameParts) {
     return `${category}-${nameParts.join('-')}`
@@ -147,44 +144,6 @@ function formatVariableName(category, nameParts) {
         .replace(/\s+/g, '-')
         .replace(/%/g, 'percent')
         .replace(/&/g, 'and');
-}
-
-// 提取颜色配置 - 使用 CSS 变量，支持暗色模式
-function extractColorConfig(json, fileName) {
-    const colors = {};
-    const comments = [];
-
-    json.variables.forEach(v => {
-        if (v.type === 'COLOR') {
-            const [category, ...nameParts] = v.name.split('/');
-            const categoryKey = category.toLowerCase().replace(/\s+/g, '-');
-            const name = nameParts.join('/').toLowerCase().replace(/%/g, 'percent');
-            const varName = formatVariableName(category, nameParts);
-            const hasDarkMode = v.resolvedValuesByMode && v.resolvedValuesByMode['6961:0'];
-
-            // 添加注释 - 只包含变量名和文件名
-            comments.push(`// ${v.name} (${fileName})`);
-
-            if (hasDarkMode) {
-                const value = {
-                    DEFAULT: `var(--color-${varName})`,
-                    dark: `var(--color-${varName}-dark)`
-                };
-                if (!colors[categoryKey]) {
-                    colors[categoryKey] = {};
-                }
-                colors[categoryKey][name] = value;
-            } else {
-                const value = `var(--color-${varName})`;
-                if (!colors[categoryKey]) {
-                    colors[categoryKey] = {};
-                }
-                colors[categoryKey][name] = value;
-            }
-        }
-    });
-
-    return { colors, comments };
 }
 
 // 提取间距配置
@@ -265,10 +224,9 @@ function rgbaToHex({ r, g, b, a = 1 }) {
 // 生成 CSS 变量 (只处理 Gradient Palette)
 function generateCssVariables(data) {
     const variables = [];
-    const darkVariables = [];
     const comments = [];
-    const darkComments = [];
 
+    // 只生成基础调色板中的变量
     data.gradientJson.variables.forEach(v => {
         if (v.type === 'COLOR') {
             const [category, ...nameParts] = v.name.split('/');
@@ -279,9 +237,16 @@ function generateCssVariables(data) {
         }
     });
 
-    // 添加 Design Token 的暗色模式变量
+    // 只处理 Design Token 中非别名的暗色模式变量
+    const darkVariables = [];
+    const darkComments = [];
     data.designTokenJson.variables.forEach(v => {
         if (v.type === 'COLOR' && v.resolvedValuesByMode['6961:0']) {
+            // 如果是别名引用，跳过创建变量
+            if (v.valuesByMode['6961:0']?.type === 'VARIABLE_ALIAS') {
+                return;
+            }
+
             const [category, ...nameParts] = v.name.split('/');
             const name = formatVariableName(category, nameParts);
             const darkValue = rgbaToHex(v.resolvedValuesByMode['6961:0'].resolvedValue);

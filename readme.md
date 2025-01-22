@@ -88,6 +88,39 @@ TODO
 合并 global.css 和 tailwind.config.js。
 但是实在吵不动了。先手动合并了。
 
+---
 
 
+[-] 修改 transform.js 的逻辑，如果有 VARIABLE_ALIAS，不需要新增一个css var，直接使用 alias 对应的变量（就在 Gradient Palette 里）,tailwind config 里也是引用 alias 的 css var。
+
+[-] 继续修改，tailwind 里的值也改成 alias 的。
+
+[-] 这里要区分暗色模式吗？只要有别名，都直接用别名的 css var
+
+[-] 我们重新思考下。现在的结果是 DEFAULT 或者 dark 对应的 css var 已经在 global.css 不存在了（不再生成），需要改成 alias，即 --color-text-critical-default 变成了 --color-red-40, --color-text-critical-default-dark 变成了--color-red-50。按照这个思路修改 transform.js
+
+[-] extractColorConfig 这个方法也没被调用啊
+
+[-] nameParts.join is not a function
+
+先删除没有使用到的代码
+
+还有逻辑没有被调用
+
+> 让他删除逻辑，他竟然还重构了。但是重构的逻辑有问题。决定手动删除了。
+
+reset 重新做 [-] 总结成一条指令
+
+修改 transform.js 的逻辑：当遇到 VARIABLE_ALIAS 类型的变量时，不要生成新的 CSS 变量，而是：
+在 global.css 中：
+1. 不生成如 --color-text-critical-default 这样的变量
+2. 只保留基础调色板中的变量（如 --color-red-40）
+
+在 tailwind.config.js 中：
+1. 将引用直接指向别名对应的变量
+2. 例如："critical/default" 应该直接引用 "var(--color-red-40)"
+
+这样可以简化变量系统，避免重复定义，直接使用基础调色板中的变量。
+
+---
 
