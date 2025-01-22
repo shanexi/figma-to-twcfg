@@ -1,3 +1,83 @@
+## 对 AI Code 初步评价
+
+1. 针对一个小任务，粗糙但是跌跌撞撞实现了，可用 90%。
+2. 可能正确的流程是
+   1. LLM 去理解需求，分解需求
+   2. 小需求逐步去 LLM 实现，但是确保 LLM 不要想太多（控制他的知识，类比于迪米特法则）
+
+## 目标
+
+将 figma 导出的变量，转换成 global.css 和 tailwind.config.js。
+
+## 结果
+
+生成 global.css 同时增加注释，和 Figma 的变量命名对齐。
+
+```css
+/* 基础变量 */
+:root {
+  /* Neutral/0 (_Gradient Palette.json) */
+  --color-neutral-0: #1A1C1D;
+  /* Neutral/10 (_Gradient Palette.json) */
+  --color-neutral-10: #202223;
+  /* Neutral/40 (_Gradient Palette.json) */
+  --color-neutral-40: #5C5F62;
+```
+
+生成 tailwind.config.js。
+
+```js
+module.exports = {
+  content: [],
+  theme: {
+    extend: {
+      colors: {
+        "surface": {
+          // Surface/Primary/Default (Design Token.json)
+          "primary-default": {
+            DEFAULT: "var(--color-blue-30)",
+            dark: "var(--color-blue-40)"
+          },
+          // Surface/Primary/Hovered (Design Token.json)
+          "primary-hovered": {
+            DEFAULT: "var(--color-blue-20)",
+            dark: "var(--color-blue-20)"
+          },
+...
+```
+
+## 效果
+
+![SCR-20250122-pcrc](./imgs/SCR-20250122-pcrc.png)
+
+## 耗时
+
+1. 首次耗时 4h+
+2. 针对类似的其他任务，耗时是否会减少？
+   1. 不确定
+
+## 手动任务
+
+1. 手动合并了生成的 globa.css 和 tailwind.config 到目标项目的相应文件。
+   1. 原因是：AI 很难快速实现，手动实现更快
+2. 手动完成了 tailwind.config.js 的格式化
+3. 手动在 tailwind.config.js 添加了 boxShadow 和 fontSize
+
+## 感性总结
+
+|                    | 适合                                                         | 不适合                                                       |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 新项目             | 新创建的项目，这样给 AI 的指令越明确。                       | 在原有项目（e.g. monorepo）里修改                            |
+| 声明式             | declarative, e.g.  JSX，tailwind classname，配置文件等声明式。肉眼可以 cross check | imperative，e.g. 复杂逻辑                                    |
+| 小任务             | e.g. 先生成 global.css 再生成 tailwind.config.js；逐步修复 key 的名称，替换空格，替换 % 等特殊字符。 | 直接给个大任务, e.g. “去把唐僧师徒除掉”。                    |
+| 无三方依赖库的任务 | 生成 json，生成 css 这种可以按行生成的。但是需要生成 js object，还要带注释，Claude 因为没用三方库，生成的一直是错的。反复纠正后，最终给出一个妥协的版本（格式化不完全正确，添加的注释没有行号信息等） | 可能有三方库会让任务更顺利，比如支持 JSON parse/stringify 带注释。 |
+| 删除 unused 代码   | 所有的代码都必须用到（同《新项目》），且手动删除 unused 代码。 | e.g. Claude 生成了一些方法，但是 unused，后续的聊天过程中，Claude 会修改这个 unused 方法。如果叫 LLM 自己删除 unused 代码，他会自作聪明的进行“重构“（一般行为都发生改变），而不是删除。 |
+| 适合小项目         | 整体生成的脚本 < 150L。                                      | 大型项目，初步原因是人类对大项目也很难理解，无法去 cross check。 |
+
+
+
+## 和 Cursor 的“吵架”记录
+
 这3个文件是 figma Export/Import Variables 生成的文件，我需要转成 tailwind.config.js 和 global.css 文件，放到 output 文件夹中。
 
 不需要详细说明，但是请将以上的任务写成一个 js 脚本，放到 src 里。
