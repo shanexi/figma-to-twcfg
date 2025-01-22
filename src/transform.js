@@ -35,7 +35,7 @@ function generateTailwindConfig(data) {
             if (v.type === 'COLOR') {
                 const [category, ...nameParts] = v.name.split('/');
                 const categoryKey = category.toLowerCase().replace(/\s+/g, '-');
-                const name = nameParts.join('/').toLowerCase().replace(/%/g, 'percent');
+                const name = nameParts.join('-').toLowerCase().replace(/%/g, 'percent').replace(/\s+/g, '-');
                 const hasDarkMode = v.resolvedValuesByMode && v.resolvedValuesByMode['6961:0'];
 
                 if (!categoryGroups[categoryKey]) {

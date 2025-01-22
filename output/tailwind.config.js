@@ -6,17 +6,17 @@ module.exports = {
       colors: {
         "surface": {
           // Surface/Primary/Default (Design Token.json)
-          "primary/default": {
+          "primary-default": {
             DEFAULT: "var(--color-blue-30)",
             dark: "var(--color-blue-40)"
           },
           // Surface/Primary/Hovered (Design Token.json)
-          "primary/hovered": {
+          "primary-hovered": {
             DEFAULT: "var(--color-blue-20)",
             dark: "var(--color-blue-20)"
           },
           // Surface/Primary/Pressed (Design Token.json)
-          "primary/pressed": {
+          "primary-pressed": {
             DEFAULT: "var(--color-blue-10)",
             dark: "var(--color-blue-10)"
           },
@@ -31,52 +31,52 @@ module.exports = {
             dark: "var(--color-dark-neutral-special-5)"
           },
           // Surface/Container/Default (Design Token.json)
-          "container/default": {
+          "container-default": {
             DEFAULT: "var(--color-neutral-variant-99)",
             dark: "var(--color-dark-neutral-0)"
           },
           // Surface/Success/Default (Design Token.json)
-          "success/default": {
+          "success-default": {
             DEFAULT: "var(--color-green-40)",
             dark: "var(--color-green-40)"
           },
           // Surface/Success/Hovered (Design Token.json)
-          "success/hovered": {
+          "success-hovered": {
             DEFAULT: "var(--color-green-30)",
             dark: "var(--color-green-30)"
           },
           // Surface/Critical/Default (Design Token.json)
-          "critical/default": {
+          "critical-default": {
             DEFAULT: "var(--color-red-40)",
             dark: "var(--color-red-30)"
           },
           // Surface/Critical/Hovered (Design Token.json)
-          "critical/hovered": {
+          "critical-hovered": {
             DEFAULT: "var(--color-red-20)",
             dark: "var(--color-red-20)"
           },
           // Surface/Critical/Pressed (Design Token.json)
-          "critical/pressed": {
+          "critical-pressed": {
             DEFAULT: "var(--color-red-10)",
             dark: "var(--color-red-10)"
           },
           // Surface/Warning/Default (Design Token.json)
-          "warning/default": {
+          "warning-default": {
             DEFAULT: "var(--color-yellow-30)",
             dark: "var(--color-yellow-30)"
           },
           // Surface/Lemon/Bold (Design Token.json)
-          "lemon/bold": {
+          "lemon-bold": {
             DEFAULT: "var(--color-yellow-5)",
             dark: "var(--color-lemon-80)"
           },
           // Surface/Lemon/Default (Design Token.json)
-          "lemon/default": {
+          "lemon-default": {
             DEFAULT: "var(--color-lemon-70)",
             dark: "var(--color-lemon-50)"
           },
           // Surface/Lemon/Subtle (Design Token.json)
-          "lemon/subtle": {
+          "lemon-subtle": {
             DEFAULT: "var(--color-lemon-90)",
             dark: "var(--color-lemon-20)"
           },
@@ -96,57 +96,57 @@ module.exports = {
             dark: "var(--color-dark-neutral-special-20)"
           },
           // Surface/Critical/Subtle/Hovered (Design Token.json)
-          "critical/subtle/hovered": {
+          "critical-subtle-hovered": {
             DEFAULT: "var(--color-red-90)",
             dark: "var(--color-red-dark-20)"
           },
           // Surface/Critical/Subtle/Pressed (Design Token.json)
-          "critical/subtle/pressed": {
+          "critical-subtle-pressed": {
             DEFAULT: "var(--color-red-80)",
             dark: "var(--color-red-dark-30)"
           },
           // Surface/Primary/Subtle/Default (Design Token.json)
-          "primary/subtle/default": {
+          "primary-subtle-default": {
             DEFAULT: "var(--color-blue-95)",
             dark: "var(--color-blue-dark-30)"
           },
           // Surface/Success/Pressed (Design Token.json)
-          "success/pressed": {
+          "success-pressed": {
             DEFAULT: "var(--color-green-20)",
             dark: "var(--color-green-20)"
           },
           // Surface/Success/Subtle/Default (Design Token.json)
-          "success/subtle/default": {
+          "success-subtle-default": {
             DEFAULT: "var(--color-green-95)",
             dark: "var(--color-green-dark-10)"
           },
           // Surface/Info/Default (Design Token.json)
-          "info/default": {
+          "info-default": {
             DEFAULT: "var(--color-aqua-40)",
             dark: "var(--color-aqua-40)"
           },
           // Surface/Info/Hovered (Design Token.json)
-          "info/hovered": {
+          "info-hovered": {
             DEFAULT: "var(--color-aqua-30)",
             dark: "var(--color-aqua-30)"
           },
           // Surface/Info/Subtle/Default (Design Token.json)
-          "info/subtle/default": {
+          "info-subtle-default": {
             DEFAULT: "var(--color-aqua-95)",
             dark: "var(--color-aqua-dark-10)"
           },
           // Surface/Container/Hovered (Design Token.json)
-          "container/hovered": {
+          "container-hovered": {
             DEFAULT: "var(--color-neutral-variant-85)",
             dark: "var(--color-dark-neutral-10)"
           },
           // Surface/Warning/Subtle/Default (Design Token.json)
-          "warning/subtle/default": {
+          "warning-subtle-default": {
             DEFAULT: "var(--color-yellow-95)",
             dark: "var(--color-yellow-dark-10)"
           },
           // Surface/Container/Pressed (Design Token.json)
-          "container/pressed": {
+          "container-pressed": {
             DEFAULT: "var(--color-neutral-variant-80)",
             dark: "var(--color-dark-neutral-15)"
           },
@@ -156,197 +156,197 @@ module.exports = {
             dark: "var(--color-dark-neutral-special-5)"
           },
           // Surface/Warning/Subtle/Hovered (Design Token.json)
-          "warning/subtle/hovered": {
+          "warning-subtle-hovered": {
             DEFAULT: "var(--color-yellow-90)",
             dark: "var(--color-yellow-dark-20)"
           },
           // Surface/Warning/Subtle/Pressed (Design Token.json)
-          "warning/subtle/pressed": {
+          "warning-subtle-pressed": {
             DEFAULT: "var(--color-yellow-80)",
             dark: "var(--color-yellow-dark-30)"
           },
           // Surface/Critical/Subtle/Default (Design Token.json)
-          "critical/subtle/default": {
+          "critical-subtle-default": {
             DEFAULT: "var(--color-red-95)",
             dark: "var(--color-red-dark-10)"
           },
           // Surface/Success/Subtle/Hovered (Design Token.json)
-          "success/subtle/hovered": {
+          "success-subtle-hovered": {
             DEFAULT: "var(--color-green-90)",
             dark: "var(--color-green-dark-20)"
           },
           // Surface/Success/Subtle/Pressed (Design Token.json)
-          "success/subtle/pressed": {
+          "success-subtle-pressed": {
             DEFAULT: "var(--color-green-80)",
             dark: "var(--color-green-dark-30)"
           },
           // Surface/Primary/Subtle/Hovered (Design Token.json)
-          "primary/subtle/hovered": {
+          "primary-subtle-hovered": {
             DEFAULT: "var(--color-blue-90)",
             dark: "var(--color-blue-dark-40)"
           },
           // Surface/Primary/Subtle/Pressed (Design Token.json)
-          "primary/subtle/pressed": {
+          "primary-subtle-pressed": {
             DEFAULT: "var(--color-blue-80)",
             dark: "var(--color-blue-dark-50)"
           },
           // Surface/Warning/Hovered (Design Token.json)
-          "warning/hovered": {
+          "warning-hovered": {
             DEFAULT: "var(--color-yellow-20)",
             dark: "var(--color-yellow-20)"
           },
           // Surface/Warning/Pressed (Design Token.json)
-          "warning/pressed": {
+          "warning-pressed": {
             DEFAULT: "var(--color-yellow-10)",
             dark: "var(--color-yellow-10)"
           },
           // Surface/Info/Pressed (Design Token.json)
-          "info/pressed": {
+          "info-pressed": {
             DEFAULT: "var(--color-aqua-20)",
             dark: "var(--color-aqua-20)"
           },
           // Surface/Info/Subtle/Hovered (Design Token.json)
-          "info/subtle/hovered": {
+          "info-subtle-hovered": {
             DEFAULT: "var(--color-aqua-90)",
             dark: "var(--color-aqua-dark-20)"
           },
           // Surface/Info/Subtle/Pressed (Design Token.json)
-          "info/subtle/pressed": {
+          "info-subtle-pressed": {
             DEFAULT: "var(--color-aqua-80)",
             dark: "var(--color-aqua-dark-30)"
           },
           // Surface/Accent/Red/Subtlest (Design Token.json)
-          "accent/red/subtlest": {
+          "accent-red-subtlest": {
             DEFAULT: "var(--color-red-95)",
             dark: "var(--color-red-dark-10)"
           },
           // Surface/Accent/Red/Bolder (Design Token.json)
-          "accent/red/bolder": {
+          "accent-red-bolder": {
             DEFAULT: "var(--color-red-20)",
             dark: "var(--color-red-25)"
           },
           // Surface/Accent/Red/Subtler (Design Token.json)
-          "accent/red/subtler": {
+          "accent-red-subtler": {
             DEFAULT: "var(--color-red-80)",
             dark: "var(--color-red-dark-20)"
           },
           // Surface/Accent/Red/Subtle (Design Token.json)
-          "accent/red/subtle": {
+          "accent-red-subtle": {
             DEFAULT: "var(--color-red-70)",
             dark: "var(--color-red-dark-30)"
           },
           // Surface/Accent/Yellow/Subtlest (Design Token.json)
-          "accent/yellow/subtlest": {
+          "accent-yellow-subtlest": {
             DEFAULT: "var(--color-yellow-95)",
             dark: "var(--color-yellow-dark-10)"
           },
           // Surface/Accent/Yellow/Subtler (Design Token.json)
-          "accent/yellow/subtler": {
+          "accent-yellow-subtler": {
             DEFAULT: "var(--color-yellow-80)",
             dark: "var(--color-yellow-dark-20)"
           },
           // Surface/Accent/Yellow/Subtle (Design Token.json)
-          "accent/yellow/subtle": {
+          "accent-yellow-subtle": {
             DEFAULT: "var(--color-yellow-70)",
             dark: "var(--color-yellow-dark-30)"
           },
           // Surface/Accent/Yellow/Bolder (Design Token.json)
-          "accent/yellow/bolder": {
+          "accent-yellow-bolder": {
             DEFAULT: "var(--color-yellow-20)",
             dark: "var(--color-yellow-15)"
           },
           // Surface/Accent/Blue/Subtlest (Design Token.json)
-          "accent/blue/subtlest": {
+          "accent-blue-subtlest": {
             DEFAULT: "var(--color-blue-95)",
             dark: "var(--color-blue-dark-10)"
           },
           // Surface/Accent/Blue/Subtler (Design Token.json)
-          "accent/blue/subtler": {
+          "accent-blue-subtler": {
             DEFAULT: "var(--color-blue-80)",
             dark: "var(--color-blue-dark-20)"
           },
           // Surface/Accent/Blue/Subtle (Design Token.json)
-          "accent/blue/subtle": {
+          "accent-blue-subtle": {
             DEFAULT: "var(--color-blue-70)",
             dark: "var(--color-blue-dark-30)"
           },
           // Surface/Accent/Blue/Bolder (Design Token.json)
-          "accent/blue/bolder": {
+          "accent-blue-bolder": {
             DEFAULT: "var(--color-blue-20)",
             dark: "var(--color-blue-15)"
           },
           // Surface/Accent/Gray/Subtlest (Design Token.json)
-          "accent/gray/subtlest": {
+          "accent-gray-subtlest": {
             DEFAULT: "var(--color-neutral-95)",
             dark: "var(--color-dark-neutral-20)"
           },
           // Surface/Accent/Gray/Subtler (Design Token.json)
-          "accent/gray/subtler": {
+          "accent-gray-subtler": {
             DEFAULT: "var(--color-neutral-85)",
             dark: "var(--color-dark-neutral-25)"
           },
           // Surface/Accent/Gray/Subtle (Design Token.json)
-          "accent/gray/subtle": {
+          "accent-gray-subtle": {
             DEFAULT: "var(--color-neutral-75)",
             dark: "var(--color-dark-neutral-30)"
           },
           // Surface/Accent/Gray/Bolder (Design Token.json)
-          "accent/gray/bolder": {
+          "accent-gray-bolder": {
             DEFAULT: "var(--color-neutral-60)",
             dark: "var(--color-dark-neutral-40)"
           },
           // Surface/Accent/Aqua/Subtlest (Design Token.json)
-          "accent/aqua/subtlest": {
+          "accent-aqua-subtlest": {
             DEFAULT: "var(--color-aqua-95)",
             dark: "var(--color-aqua-dark-10)"
           },
           // Surface/Accent/Aqua/Subtler (Design Token.json)
-          "accent/aqua/subtler": {
+          "accent-aqua-subtler": {
             DEFAULT: "var(--color-aqua-80)",
             dark: "var(--color-aqua-dark-20)"
           },
           // Surface/Accent/Aqua/Subtle (Design Token.json)
-          "accent/aqua/subtle": {
+          "accent-aqua-subtle": {
             DEFAULT: "var(--color-aqua-70)",
             dark: "var(--color-aqua-dark-30)"
           },
           // Surface/Accent/Aqua/Bolder (Design Token.json)
-          "accent/aqua/bolder": {
+          "accent-aqua-bolder": {
             DEFAULT: "var(--color-aqua-20)",
             dark: "var(--color-aqua-25)"
           },
           // Surface/Accent/Green/Subtlest (Design Token.json)
-          "accent/green/subtlest": {
+          "accent-green-subtlest": {
             DEFAULT: "var(--color-green-90)",
             dark: "var(--color-green-dark-10)"
           },
           // Surface/Accent/Green/Subtler (Design Token.json)
-          "accent/green/subtler": {
+          "accent-green-subtler": {
             DEFAULT: "var(--color-green-80)",
             dark: "var(--color-green-dark-20)"
           },
           // Surface/Accent/Green/Subtle (Design Token.json)
-          "accent/green/subtle": {
+          "accent-green-subtle": {
             DEFAULT: "var(--color-green-70)",
             dark: "var(--color-green-dark-30)"
           },
           // Surface/Accent/Green/Bolder (Design Token.json)
-          "accent/green/bolder": {
+          "accent-green-bolder": {
             DEFAULT: "var(--color-green-20)",
             dark: "var(--color-green-25)"
           },
           // Surface/Container/Selected/Default (Design Token.json)
-          "container/selected/default": {
+          "container-selected-default": {
             DEFAULT: "var(--color-neutral-variant-95)",
             dark: "var(--color-dark-neutral-special-10)"
           },
           // Surface/Container/Selected/Hovered (Design Token.json)
-          "container/selected/hovered": {
+          "container-selected-hovered": {
             DEFAULT: "var(--color-neutral-variant-90)",
             dark: "var(--color-dark-neutral-special-30)"
           },
           // Surface/Container/Selected/Pressed (Design Token.json)
-          "container/selected/pressed": {
+          "container-selected-pressed": {
             DEFAULT: "var(--color-neutral-variant-88)",
             dark: "var(--color-dark-neutral-special-40)"
           },
@@ -356,12 +356,12 @@ module.exports = {
             dark: "var(--color-neutral-100)"
           },
           // Surface/Lemon/Subtlest (Design Token.json)
-          "lemon/subtlest": {
+          "lemon-subtlest": {
             DEFAULT: "var(--color-neutral-100)",
             dark: "var(--color-lemon-10)"
           },
           // Surface/Static/White (Design Token.json)
-          "static/white": {
+          "static-white": {
             DEFAULT: "var(--color-neutral-100)",
             dark: "var(--color-neutral-100)"
           },
@@ -371,26 +371,26 @@ module.exports = {
             dark: "var(--color-basic-none)"
           },
           // Surface/Static/Black (Design Token.json)
-          "static/black": {
+          "static-black": {
             DEFAULT: "var(--color-neutral-0)",
             dark: "var(--color-neutral-0)"
           },
           // Surface/Container/Special/Subtle (Design Token.json)
-          "container/special/subtle": {
+          "container-special-subtle": {
             DEFAULT: "var(--color-neutral-variant-99)",
             dark: "var(--color-dark-neutral-special-5)"
           },
           // Surface/Container/Special/Default (Design Token.json)
-          "container/special/default": {
+          "container-special-default": {
             DEFAULT: "var(--color-neutral-variant-85)",
             dark: "var(--color-dark-neutral-special-20)"
           },
           // Surface/Container/Special/Hovered (Design Token.json)
-          "container/special/hovered": {
+          "container-special-hovered": {
             DEFAULT: "var(--color-neutral-variant-80)",
             dark: "var(--color-dark-neutral-special-30)"
           },
-        },
+      },
         "text": {
           // Text/Default (Design Token.json)
           "default": {
@@ -408,7 +408,7 @@ module.exports = {
             dark: "var(--color-dark-neutral-30)"
           },
           // Text/Warning/Default (Design Token.json)
-          "warning/default": {
+          "warning-default": {
             DEFAULT: "var(--color-yellow-30)",
             dark: "var(--color-yellow-40)"
           },
@@ -423,27 +423,27 @@ module.exports = {
             dark: "var(--color-dark-neutral-85)"
           },
           // Text/Critical/Default (Design Token.json)
-          "critical/default": {
+          "critical-default": {
             DEFAULT: "var(--color-red-40)",
             dark: "var(--color-red-50)"
           },
           // Text/Success/Default (Design Token.json)
-          "success/default": {
+          "success-default": {
             DEFAULT: "var(--color-green-20)",
             dark: "var(--color-green-25)"
           },
           // Text/Success/Bolder (Design Token.json)
-          "success/bolder": {
+          "success-bolder": {
             DEFAULT: "var(--color-green-0)",
             dark: "var(--color-green-70)"
           },
           // Text/Warning/Bolder (Design Token.json)
-          "warning/bolder": {
+          "warning-bolder": {
             DEFAULT: "var(--color-yellow-5)",
             dark: "var(--color-yellow-70)"
           },
           // Text/Critical/Bolder (Design Token.json)
-          "critical/bolder": {
+          "critical-bolder": {
             DEFAULT: "var(--color-red-0)",
             dark: "var(--color-red-70)"
           },
@@ -453,17 +453,17 @@ module.exports = {
             dark: "var(--color-blue-40)"
           },
           // Text/Static/White (Design Token.json)
-          "static/white": {
+          "static-white": {
             DEFAULT: "var(--color-neutral-100)",
             dark: "var(--color-neutral-100)"
           },
           // Text/Static/Black (Design Token.json)
-          "static/black": {
+          "static-black": {
             DEFAULT: "var(--color-neutral-10)",
             dark: "var(--color-neutral-10)"
           },
           // Text/Static/Brand (Design Token.json)
-          "static/brand": {
+          "static-brand": {
             DEFAULT: "var(--color-blue-30)",
             dark: "var(--color-blue-30)"
           },
@@ -472,7 +472,7 @@ module.exports = {
             DEFAULT: "var(--color-neutral-100)",
             dark: "var(--color-neutral-10)"
           },
-        },
+      },
         "border": {
           // Border/Default (Design Token.json)
           "default": {
@@ -500,12 +500,12 @@ module.exports = {
             dark: "var(--color-dark-neutral-40)"
           },
           // Border/Warning/Subtle (Design Token.json)
-          "warning/subtle": {
+          "warning-subtle": {
             DEFAULT: "var(--color-yellow-35)",
             dark: "var(--color-yellow-35)"
           },
           // Border/Warning/Default (Design Token.json)
-          "warning/default": {
+          "warning-default": {
             DEFAULT: "var(--color-yellow-10)",
             dark: "var(--color-yellow-10)"
           },
@@ -534,30 +534,30 @@ module.exports = {
             DEFAULT: "var(--color-neutral-variant-80)",
             dark: "var(--color-neutral-variant-80)"
           },
-        },
+      },
         "alpha": {
           // Alpha/Facetime/White (Design Token.json)
-          "facetime/white": {
+          "facetime-white": {
             DEFAULT: "var(--color-alpha-white-20percent)",
             dark: "var(--color-alpha-black-20percent)"
           },
           // Alpha/Facetime/Black (Design Token.json)
-          "facetime/black": {
+          "facetime-black": {
             DEFAULT: "var(--color-alpha-black-20percent)",
             dark: "var(--color-alpha-white-20percent)"
           },
           // Alpha/Mask/Desktop (Design Token.json)
-          "mask/desktop": {
+          "mask-desktop": {
             DEFAULT: "var(--color-alpha-black-75percent)",
             dark: "var(--color-alpha-black-75percent)"
           },
           // Alpha/Mask/Mobile (Design Token.json)
-          "mask/mobile": {
+          "mask-mobile": {
             DEFAULT: "var(--color-alpha-black-75percent)",
             dark: "var(--color-alpha-black-75percent)"
           },
           // Alpha/Facetime/Static (Design Token.json)
-          "facetime/static": {
+          "facetime-static": {
             DEFAULT: "var(--color-alpha-black-20percent)",
             dark: "var(--color-alpha-black-20percent)"
           },
@@ -701,7 +701,7 @@ module.exports = {
             DEFAULT: "var(--color-alpha-black-100percent)",
             dark: "var(--color-alpha-white-100percent)"
           },
-        },
+      },
         "icon": {
           // Icon/Default (Design Token.json)
           "default": {
@@ -749,58 +749,58 @@ module.exports = {
             dark: "var(--color-blue-40)"
           },
           // Icon/Static/White (Design Token.json)
-          "static/white": {
+          "static-white": {
             DEFAULT: "var(--color-neutral-100)",
             dark: "var(--color-neutral-100)"
           },
           // Icon/Static/Black (Design Token.json)
-          "static/black": {
+          "static-black": {
             DEFAULT: "var(--color-neutral-30)",
             dark: "var(--color-neutral-30)"
           },
           // Icon/Static/Brand (Design Token.json)
-          "static/brand": {
+          "static-brand": {
             DEFAULT: "var(--color-blue-30)",
             dark: "var(--color-blue-30)"
           },
-        },
+      },
         "shadows": {
           // Shadows/Surface/Default (Design Token.json)
-          "surface/default": {
+          "surface-default": {
             DEFAULT: "var(--color-alpha-black-10percent)",
             dark: "var(--color-alpha-white-5percent)"
           },
           // Shadows/Surface/Bolder (Design Token.json)
-          "surface/bolder": {
+          "surface-bolder": {
             DEFAULT: "var(--color-alpha-black-3percent)",
             dark: "var(--color-alpha-white-3percent)"
           },
           // Shadows/Modal/Default&Bolder (Design Token.json)
-          "modal/default&bolder": {
+          "modal-default&bolder": {
             DEFAULT: "var(--color-alpha-black-10percent)",
             dark: "var(--color-alpha-white-1percent)"
           },
           // Shadows/Button/Basic (Design Token.json)
-          "button/basic": {
+          "button-basic": {
             DEFAULT: "var(--color-alpha-black-5percent)",
             dark: "var(--color-alpha-white-5percent)"
           },
           // Shadows/Button/Primary-1 (Design Token.json)
-          "button/primary-1": {
+          "button-primary-1": {
             DEFAULT: "var(--color-alpha-black-8percent)",
             dark: "var(--color-alpha-white-8percent)"
           },
           // Shadows/Button/Primary-2 (Design Token.json)
-          "button/primary-2": {
+          "button-primary-2": {
             DEFAULT: "var(--color-alpha-black-20percent)",
             dark: "var(--color-alpha-white-20percent)"
           },
           // Shadows/Button/Pressed (Design Token.json)
-          "button/pressed": {
+          "button-pressed": {
             DEFAULT: "var(--color-alpha-black-5percent)",
             dark: "var(--color-alpha-white-10percent)"
           },
-        },
+      },
         "focus-rings": {
           // Focus rings/Brand (Design Token.json)
           "brand": {
@@ -812,7 +812,7 @@ module.exports = {
             DEFAULT: "var(--color-red-55)",
             dark: "var(--color-red-55)"
           },
-        },
+      },
         "beta": {
           // Beta/White-1 (Design Token.json)
           "white-1": {
@@ -954,409 +954,409 @@ module.exports = {
             DEFAULT: "var(--color-alpha-black-100percent)",
             dark: "var(--color-alpha-black-100percent)"
           },
-        },
+      },
         "utility": {
           // Utility/Moss/50 (Design Token.json)
-          "moss/50": {
+          "moss-50": {
             DEFAULT: "var(--color-moss-50)",
             dark: "var(--color-moss-950)"
           },
           // Utility/Moss/100 (Design Token.json)
-          "moss/100": {
+          "moss-100": {
             DEFAULT: "var(--color-moss-100)",
             dark: "var(--color-moss-900)"
           },
           // Utility/Moss/200 (Design Token.json)
-          "moss/200": {
+          "moss-200": {
             DEFAULT: "var(--color-moss-200)",
             dark: "var(--color-moss-800)"
           },
           // Utility/Moss/300 (Design Token.json)
-          "moss/300": {
+          "moss-300": {
             DEFAULT: "var(--color-moss-300)",
             dark: "var(--color-moss-700)"
           },
           // Utility/Moss/400 (Design Token.json)
-          "moss/400": {
+          "moss-400": {
             DEFAULT: "var(--color-moss-400)",
             dark: "var(--color-moss-600)"
           },
           // Utility/Moss/500 (Design Token.json)
-          "moss/500": {
+          "moss-500": {
             DEFAULT: "var(--color-moss-500)",
             dark: "var(--color-moss-500)"
           },
           // Utility/Moss/600 (Design Token.json)
-          "moss/600": {
+          "moss-600": {
             DEFAULT: "var(--color-moss-600)",
             dark: "var(--color-moss-400)"
           },
           // Utility/Moss/700 (Design Token.json)
-          "moss/700": {
+          "moss-700": {
             DEFAULT: "var(--color-moss-700)",
             dark: "var(--color-moss-300)"
           },
           // Utility/Teal/50 (Design Token.json)
-          "teal/50": {
+          "teal-50": {
             DEFAULT: "var(--color-teal-50)",
             dark: "var(--color-teal-950)"
           },
           // Utility/Teal/100 (Design Token.json)
-          "teal/100": {
+          "teal-100": {
             DEFAULT: "var(--color-teal-100)",
             dark: "var(--color-teal-900)"
           },
           // Utility/Teal/200 (Design Token.json)
-          "teal/200": {
+          "teal-200": {
             DEFAULT: "var(--color-teal-200)",
             dark: "var(--color-teal-800)"
           },
           // Utility/Teal/300 (Design Token.json)
-          "teal/300": {
+          "teal-300": {
             DEFAULT: "var(--color-teal-300)",
             dark: "var(--color-teal-700)"
           },
           // Utility/Teal/400 (Design Token.json)
-          "teal/400": {
+          "teal-400": {
             DEFAULT: "var(--color-teal-400)",
             dark: "var(--color-teal-600)"
           },
           // Utility/Teal/500 (Design Token.json)
-          "teal/500": {
+          "teal-500": {
             DEFAULT: "var(--color-teal-500)",
             dark: "var(--color-teal-500)"
           },
           // Utility/Teal/600 (Design Token.json)
-          "teal/600": {
+          "teal-600": {
             DEFAULT: "var(--color-teal-600)",
             dark: "var(--color-teal-400)"
           },
           // Utility/Teal/700 (Design Token.json)
-          "teal/700": {
+          "teal-700": {
             DEFAULT: "var(--color-teal-700)",
             dark: "var(--color-teal-300)"
           },
           // Utility/Cyan/50 (Design Token.json)
-          "cyan/50": {
+          "cyan-50": {
             DEFAULT: "var(--color-cyan-50)",
             dark: "var(--color-cyan-950)"
           },
           // Utility/Cyan/100 (Design Token.json)
-          "cyan/100": {
+          "cyan-100": {
             DEFAULT: "var(--color-cyan-100)",
             dark: "var(--color-cyan-900)"
           },
           // Utility/Cyan/200 (Design Token.json)
-          "cyan/200": {
+          "cyan-200": {
             DEFAULT: "var(--color-cyan-200)",
             dark: "var(--color-cyan-800)"
           },
           // Utility/Cyan/300 (Design Token.json)
-          "cyan/300": {
+          "cyan-300": {
             DEFAULT: "var(--color-cyan-300)",
             dark: "var(--color-cyan-700)"
           },
           // Utility/Cyan/400 (Design Token.json)
-          "cyan/400": {
+          "cyan-400": {
             DEFAULT: "var(--color-cyan-400)",
             dark: "var(--color-cyan-600)"
           },
           // Utility/Cyan/500 (Design Token.json)
-          "cyan/500": {
+          "cyan-500": {
             DEFAULT: "var(--color-cyan-500)",
             dark: "var(--color-cyan-500)"
           },
           // Utility/Cyan/600 (Design Token.json)
-          "cyan/600": {
+          "cyan-600": {
             DEFAULT: "var(--color-cyan-600)",
             dark: "var(--color-cyan-400)"
           },
           // Utility/Cyan/700 (Design Token.json)
-          "cyan/700": {
+          "cyan-700": {
             DEFAULT: "var(--color-cyan-700)",
             dark: "var(--color-cyan-300)"
           },
           // Utility/Indigo/50 (Design Token.json)
-          "indigo/50": {
+          "indigo-50": {
             DEFAULT: "var(--color-indigo-50)",
             dark: "var(--color-indigo-950)"
           },
           // Utility/Indigo/100 (Design Token.json)
-          "indigo/100": {
+          "indigo-100": {
             DEFAULT: "var(--color-indigo-100)",
             dark: "var(--color-indigo-900)"
           },
           // Utility/Indigo/200 (Design Token.json)
-          "indigo/200": {
+          "indigo-200": {
             DEFAULT: "var(--color-indigo-200)",
             dark: "var(--color-indigo-800)"
           },
           // Utility/Indigo/300 (Design Token.json)
-          "indigo/300": {
+          "indigo-300": {
             DEFAULT: "var(--color-indigo-300)",
             dark: "var(--color-indigo-700)"
           },
           // Utility/Indigo/400 (Design Token.json)
-          "indigo/400": {
+          "indigo-400": {
             DEFAULT: "var(--color-indigo-400)",
             dark: "var(--color-indigo-600)"
           },
           // Utility/Indigo/500 (Design Token.json)
-          "indigo/500": {
+          "indigo-500": {
             DEFAULT: "var(--color-indigo-500)",
             dark: "var(--color-indigo-500)"
           },
           // Utility/Indigo/600 (Design Token.json)
-          "indigo/600": {
+          "indigo-600": {
             DEFAULT: "var(--color-indigo-600)",
             dark: "var(--color-indigo-400)"
           },
           // Utility/Indigo/700 (Design Token.json)
-          "indigo/700": {
+          "indigo-700": {
             DEFAULT: "var(--color-indigo-700)",
             dark: "var(--color-indigo-300)"
           },
           // Utility/Purple/50 (Design Token.json)
-          "purple/50": {
+          "purple-50": {
             DEFAULT: "var(--color-purple-50)",
             dark: "var(--color-purple-950)"
           },
           // Utility/Purple/100 (Design Token.json)
-          "purple/100": {
+          "purple-100": {
             DEFAULT: "var(--color-purple-100)",
             dark: "var(--color-purple-900)"
           },
           // Utility/Purple/200 (Design Token.json)
-          "purple/200": {
+          "purple-200": {
             DEFAULT: "var(--color-purple-200)",
             dark: "var(--color-purple-800)"
           },
           // Utility/Purple/300 (Design Token.json)
-          "purple/300": {
+          "purple-300": {
             DEFAULT: "var(--color-purple-300)",
             dark: "var(--color-purple-700)"
           },
           // Utility/Purple/400 (Design Token.json)
-          "purple/400": {
+          "purple-400": {
             DEFAULT: "var(--color-purple-400)",
             dark: "var(--color-purple-600)"
           },
           // Utility/Purple/500 (Design Token.json)
-          "purple/500": {
+          "purple-500": {
             DEFAULT: "var(--color-purple-500)",
             dark: "var(--color-purple-500)"
           },
           // Utility/Purple/600 (Design Token.json)
-          "purple/600": {
+          "purple-600": {
             DEFAULT: "var(--color-purple-600)",
             dark: "var(--color-purple-400)"
           },
           // Utility/Purple/700 (Design Token.json)
-          "purple/700": {
+          "purple-700": {
             DEFAULT: "var(--color-purple-700)",
             dark: "var(--color-purple-300)"
           },
           // Utility/Pink/50 (Design Token.json)
-          "pink/50": {
+          "pink-50": {
             DEFAULT: "var(--color-pink-50)",
             dark: "var(--color-pink-950)"
           },
           // Utility/Pink/100 (Design Token.json)
-          "pink/100": {
+          "pink-100": {
             DEFAULT: "var(--color-pink-100)",
             dark: "var(--color-pink-900)"
           },
           // Utility/Pink/200 (Design Token.json)
-          "pink/200": {
+          "pink-200": {
             DEFAULT: "var(--color-pink-200)",
             dark: "var(--color-pink-800)"
           },
           // Utility/Pink/300 (Design Token.json)
-          "pink/300": {
+          "pink-300": {
             DEFAULT: "var(--color-pink-300)",
             dark: "var(--color-pink-700)"
           },
           // Utility/Pink/400 (Design Token.json)
-          "pink/400": {
+          "pink-400": {
             DEFAULT: "var(--color-pink-400)",
             dark: "var(--color-pink-600)"
           },
           // Utility/Pink/500 (Design Token.json)
-          "pink/500": {
+          "pink-500": {
             DEFAULT: "var(--color-pink-500)",
             dark: "var(--color-pink-500)"
           },
           // Utility/Pink/600 (Design Token.json)
-          "pink/600": {
+          "pink-600": {
             DEFAULT: "var(--color-pink-600)",
             dark: "var(--color-pink-400)"
           },
           // Utility/Pink/700 (Design Token.json)
-          "pink/700": {
+          "pink-700": {
             DEFAULT: "var(--color-pink-700)",
             dark: "var(--color-pink-300)"
           },
           // Utility/Rosé/50 (Design Token.json)
-          "rosé/50": {
+          "rosé-50": {
             DEFAULT: "var(--color-rosé-50)",
             dark: "var(--color-rosé-950)"
           },
           // Utility/Rosé/100 (Design Token.json)
-          "rosé/100": {
+          "rosé-100": {
             DEFAULT: "var(--color-rosé-100)",
             dark: "var(--color-rosé-900)"
           },
           // Utility/Rosé/200 (Design Token.json)
-          "rosé/200": {
+          "rosé-200": {
             DEFAULT: "var(--color-rosé-200)",
             dark: "var(--color-rosé-800)"
           },
           // Utility/Rosé/300 (Design Token.json)
-          "rosé/300": {
+          "rosé-300": {
             DEFAULT: "var(--color-rosé-300)",
             dark: "var(--color-rosé-700)"
           },
           // Utility/Rosé/400 (Design Token.json)
-          "rosé/400": {
+          "rosé-400": {
             DEFAULT: "var(--color-rosé-400)",
             dark: "var(--color-rosé-600)"
           },
           // Utility/Rosé/500 (Design Token.json)
-          "rosé/500": {
+          "rosé-500": {
             DEFAULT: "var(--color-rosé-500)",
             dark: "var(--color-rosé-500)"
           },
           // Utility/Rosé/600 (Design Token.json)
-          "rosé/600": {
+          "rosé-600": {
             DEFAULT: "var(--color-rosé-600)",
             dark: "var(--color-rosé-400)"
           },
           // Utility/Rosé/700 (Design Token.json)
-          "rosé/700": {
+          "rosé-700": {
             DEFAULT: "var(--color-rosé-700)",
             dark: "var(--color-rosé-300)"
           },
           // Utility/Orange/50 (Design Token.json)
-          "orange/50": {
+          "orange-50": {
             DEFAULT: "var(--color-orange-50)",
             dark: "var(--color-orange-950)"
           },
           // Utility/Orange/100 (Design Token.json)
-          "orange/100": {
+          "orange-100": {
             DEFAULT: "var(--color-orange-100)",
             dark: "var(--color-orange-900)"
           },
           // Utility/Orange/200 (Design Token.json)
-          "orange/200": {
+          "orange-200": {
             DEFAULT: "var(--color-orange-200)",
             dark: "var(--color-orange-800)"
           },
           // Utility/Orange/300 (Design Token.json)
-          "orange/300": {
+          "orange-300": {
             DEFAULT: "var(--color-orange-300)",
             dark: "var(--color-orange-700)"
           },
           // Utility/Orange/400 (Design Token.json)
-          "orange/400": {
+          "orange-400": {
             DEFAULT: "var(--color-orange-400)",
             dark: "var(--color-orange-600)"
           },
           // Utility/Orange/500 (Design Token.json)
-          "orange/500": {
+          "orange-500": {
             DEFAULT: "var(--color-orange-500)",
             dark: "var(--color-orange-500)"
           },
           // Utility/Orange/600 (Design Token.json)
-          "orange/600": {
+          "orange-600": {
             DEFAULT: "var(--color-orange-600)",
             dark: "var(--color-orange-400)"
           },
           // Utility/Orange/700 (Design Token.json)
-          "orange/700": {
+          "orange-700": {
             DEFAULT: "var(--color-orange-700)",
             dark: "var(--color-orange-300)"
           },
           // Utility/Amber/50 (Design Token.json)
-          "amber/50": {
+          "amber-50": {
             DEFAULT: "var(--color-amber-50)",
             dark: "var(--color-amber-950)"
           },
           // Utility/Amber/100 (Design Token.json)
-          "amber/100": {
+          "amber-100": {
             DEFAULT: "var(--color-amber-100)",
             dark: "var(--color-amber-900)"
           },
           // Utility/Amber/200 (Design Token.json)
-          "amber/200": {
+          "amber-200": {
             DEFAULT: "var(--color-amber-200)",
             dark: "var(--color-amber-800)"
           },
           // Utility/Amber/300 (Design Token.json)
-          "amber/300": {
+          "amber-300": {
             DEFAULT: "var(--color-amber-300)",
             dark: "var(--color-amber-700)"
           },
           // Utility/Amber/400 (Design Token.json)
-          "amber/400": {
+          "amber-400": {
             DEFAULT: "var(--color-amber-400)",
             dark: "var(--color-amber-600)"
           },
           // Utility/Amber/500 (Design Token.json)
-          "amber/500": {
+          "amber-500": {
             DEFAULT: "var(--color-amber-500)",
             dark: "var(--color-amber-500)"
           },
           // Utility/Amber/600 (Design Token.json)
-          "amber/600": {
+          "amber-600": {
             DEFAULT: "var(--color-amber-600)",
             dark: "var(--color-amber-400)"
           },
           // Utility/Amber/700 (Design Token.json)
-          "amber/700": {
+          "amber-700": {
             DEFAULT: "var(--color-amber-700)",
             dark: "var(--color-amber-300)"
           },
           // Utility/Sky Blue/50 (Design Token.json)
-          "sky blue/50": {
+          "sky-blue-50": {
             DEFAULT: "var(--color-sky-blue-50)",
             dark: "var(--color-sky-blue-950)"
           },
           // Utility/Sky Blue/100 (Design Token.json)
-          "sky blue/100": {
+          "sky-blue-100": {
             DEFAULT: "var(--color-sky-blue-100)",
             dark: "var(--color-sky-blue-900)"
           },
           // Utility/Sky Blue/200 (Design Token.json)
-          "sky blue/200": {
+          "sky-blue-200": {
             DEFAULT: "var(--color-sky-blue-200)",
             dark: "var(--color-sky-blue-800)"
           },
           // Utility/Sky Blue/300 (Design Token.json)
-          "sky blue/300": {
+          "sky-blue-300": {
             DEFAULT: "var(--color-sky-blue-300)",
             dark: "var(--color-sky-blue-700)"
           },
           // Utility/Sky Blue/400 (Design Token.json)
-          "sky blue/400": {
+          "sky-blue-400": {
             DEFAULT: "var(--color-sky-blue-400)",
             dark: "var(--color-sky-blue-600)"
           },
           // Utility/Sky Blue/500 (Design Token.json)
-          "sky blue/500": {
+          "sky-blue-500": {
             DEFAULT: "var(--color-sky-blue-500)",
             dark: "var(--color-sky-blue-500)"
           },
           // Utility/Sky Blue/600 (Design Token.json)
-          "sky blue/600": {
+          "sky-blue-600": {
             DEFAULT: "var(--color-sky-blue-600)",
             dark: "var(--color-sky-blue-400)"
           },
           // Utility/Sky Blue/700 (Design Token.json)
-          "sky blue/700": {
+          "sky-blue-700": {
             DEFAULT: "var(--color-sky-blue-700)",
             dark: "var(--color-sky-blue-300)"
           },
-        },
+      },
         "neutral": {
           // Neutral/0 (_Gradient Palette.json)
           "0": "var(--color-neutral-0)",
@@ -1388,7 +1388,7 @@ module.exports = {
           "20": "var(--color-neutral-20)",
           // Neutral/30 (_Gradient Palette.json)
           "30": "var(--color-neutral-30)",
-        },
+      },
         "neutral-variant": {
           // Neutral Variant/20 (_Gradient Palette.json)
           "20": "var(--color-neutral-variant-20)",
@@ -1424,7 +1424,7 @@ module.exports = {
           "15": "var(--color-neutral-variant-15)",
           // Neutral Variant/35 (_Gradient Palette.json)
           "35": "var(--color-neutral-variant-35)",
-        },
+      },
         "blue": {
           // Blue/5 (_Gradient Palette.json)
           "5": "var(--color-blue-5)",
@@ -1453,16 +1453,16 @@ module.exports = {
           // Blue/0 (_Gradient Palette.json)
           "0": "var(--color-blue-0)",
           // Blue/Dark/10 (_Gradient Palette.json)
-          "dark/10": "var(--color-blue-dark-10)",
+          "dark-10": "var(--color-blue-dark-10)",
           // Blue/Dark/20 (_Gradient Palette.json)
-          "dark/20": "var(--color-blue-dark-20)",
+          "dark-20": "var(--color-blue-dark-20)",
           // Blue/Dark/30 (_Gradient Palette.json)
-          "dark/30": "var(--color-blue-dark-30)",
+          "dark-30": "var(--color-blue-dark-30)",
           // Blue/Dark/40 (_Gradient Palette.json)
-          "dark/40": "var(--color-blue-dark-40)",
+          "dark-40": "var(--color-blue-dark-40)",
           // Blue/Dark/50 (_Gradient Palette.json)
-          "dark/50": "var(--color-blue-dark-50)",
-        },
+          "dark-50": "var(--color-blue-dark-50)",
+      },
         "red": {
           // Red/0 (_Gradient Palette.json)
           "0": "var(--color-red-0)",
@@ -1487,16 +1487,16 @@ module.exports = {
           // Red/95 (_Gradient Palette.json)
           "95": "var(--color-red-95)",
           // Red/Dark/30 (_Gradient Palette.json)
-          "dark/30": "var(--color-red-dark-30)",
+          "dark-30": "var(--color-red-dark-30)",
           // Red/Dark/20 (_Gradient Palette.json)
-          "dark/20": "var(--color-red-dark-20)",
+          "dark-20": "var(--color-red-dark-20)",
           // Red/Dark/10 (_Gradient Palette.json)
-          "dark/10": "var(--color-red-dark-10)",
+          "dark-10": "var(--color-red-dark-10)",
           // Red/25 (_Gradient Palette.json)
           "25": "var(--color-red-25)",
           // Red/55 (_Gradient Palette.json)
           "55": "var(--color-red-55)",
-        },
+      },
         "yellow": {
           // Yellow/5 (_Gradient Palette.json)
           "5": "var(--color-yellow-5)",
@@ -1523,16 +1523,16 @@ module.exports = {
           // Yellow/15 (_Gradient Palette.json)
           "15": "var(--color-yellow-15)",
           // Yellow/Dark/10 (_Gradient Palette.json)
-          "dark/10": "var(--color-yellow-dark-10)",
+          "dark-10": "var(--color-yellow-dark-10)",
           // Yellow/Dark/20 (_Gradient Palette.json)
-          "dark/20": "var(--color-yellow-dark-20)",
+          "dark-20": "var(--color-yellow-dark-20)",
           // Yellow/Dark/30 (_Gradient Palette.json)
-          "dark/30": "var(--color-yellow-dark-30)",
+          "dark-30": "var(--color-yellow-dark-30)",
           // Yellow/0 (_Gradient Palette.json)
           "0": "var(--color-yellow-0)",
           // Yellow/50 (_Gradient Palette.json)
           "50": "var(--color-yellow-50)",
-        },
+      },
         "aqua": {
           // Aqua/5 (_Gradient Palette.json)
           "5": "var(--color-aqua-5)",
@@ -1559,18 +1559,18 @@ module.exports = {
           // Aqua/25 (_Gradient Palette.json)
           "25": "var(--color-aqua-25)",
           // Aqua/Dark/10 (_Gradient Palette.json)
-          "dark/10": "var(--color-aqua-dark-10)",
+          "dark-10": "var(--color-aqua-dark-10)",
           // Aqua/Dark/20 (_Gradient Palette.json)
-          "dark/20": "var(--color-aqua-dark-20)",
+          "dark-20": "var(--color-aqua-dark-20)",
           // Aqua/Dark/30 (_Gradient Palette.json)
-          "dark/30": "var(--color-aqua-dark-30)",
+          "dark-30": "var(--color-aqua-dark-30)",
           // Aqua/0 (_Gradient Palette.json)
           "0": "var(--color-aqua-0)",
           // Aqua/55 (_Gradient Palette.json)
           "55": "var(--color-aqua-55)",
           // Aqua/75 (_Gradient Palette.json)
           "75": "var(--color-aqua-75)",
-        },
+      },
         "green": {
           // Green/0 (_Gradient Palette.json)
           "0": "var(--color-green-0)",
@@ -1597,72 +1597,72 @@ module.exports = {
           // Green/25 (_Gradient Palette.json)
           "25": "var(--color-green-25)",
           // Green/Dark/10 (_Gradient Palette.json)
-          "dark/10": "var(--color-green-dark-10)",
+          "dark-10": "var(--color-green-dark-10)",
           // Green/Dark/20 (_Gradient Palette.json)
-          "dark/20": "var(--color-green-dark-20)",
+          "dark-20": "var(--color-green-dark-20)",
           // Green/Dark/30 (_Gradient Palette.json)
-          "dark/30": "var(--color-green-dark-30)",
+          "dark-30": "var(--color-green-dark-30)",
           // Alpha/White/20% (_Gradient Palette.json)
-          "white/20percent": "var(--color-alpha-white-20percent)",
+          "white-20percent": "var(--color-alpha-white-20percent)",
           // Alpha/Black/20% (_Gradient Palette.json)
-          "black/20percent": "var(--color-alpha-black-20percent)",
+          "black-20percent": "var(--color-alpha-black-20percent)",
           // Alpha/White/75% (_Gradient Palette.json)
-          "white/75percent": "var(--color-alpha-white-75percent)",
+          "white-75percent": "var(--color-alpha-white-75percent)",
           // Alpha/Black/75% (_Gradient Palette.json)
-          "black/75percent": "var(--color-alpha-black-75percent)",
+          "black-75percent": "var(--color-alpha-black-75percent)",
           // Alpha/White/5% (_Gradient Palette.json)
-          "white/5percent": "var(--color-alpha-white-5percent)",
+          "white-5percent": "var(--color-alpha-white-5percent)",
           // Alpha/Black/10% (_Gradient Palette.json)
-          "black/10percent": "var(--color-alpha-black-10percent)",
+          "black-10percent": "var(--color-alpha-black-10percent)",
           // Alpha/White/10% (_Gradient Palette.json)
-          "white/10percent": "var(--color-alpha-white-10percent)",
+          "white-10percent": "var(--color-alpha-white-10percent)",
           // Alpha/White/30% (_Gradient Palette.json)
-          "white/30percent": "var(--color-alpha-white-30percent)",
+          "white-30percent": "var(--color-alpha-white-30percent)",
           // Alpha/White/40% (_Gradient Palette.json)
-          "white/40percent": "var(--color-alpha-white-40percent)",
+          "white-40percent": "var(--color-alpha-white-40percent)",
           // Alpha/White/50% (_Gradient Palette.json)
-          "white/50percent": "var(--color-alpha-white-50percent)",
+          "white-50percent": "var(--color-alpha-white-50percent)",
           // Alpha/White/60% (_Gradient Palette.json)
-          "white/60percent": "var(--color-alpha-white-60percent)",
+          "white-60percent": "var(--color-alpha-white-60percent)",
           // Alpha/White/70% (_Gradient Palette.json)
-          "white/70percent": "var(--color-alpha-white-70percent)",
+          "white-70percent": "var(--color-alpha-white-70percent)",
           // Alpha/White/80% (_Gradient Palette.json)
-          "white/80percent": "var(--color-alpha-white-80percent)",
+          "white-80percent": "var(--color-alpha-white-80percent)",
           // Alpha/White/90% (_Gradient Palette.json)
-          "white/90percent": "var(--color-alpha-white-90percent)",
+          "white-90percent": "var(--color-alpha-white-90percent)",
           // Alpha/White/100% (_Gradient Palette.json)
-          "white/100percent": "var(--color-alpha-white-100percent)",
+          "white-100percent": "var(--color-alpha-white-100percent)",
           // Alpha/Black/5% (_Gradient Palette.json)
-          "black/5percent": "var(--color-alpha-black-5percent)",
+          "black-5percent": "var(--color-alpha-black-5percent)",
           // Alpha/Black/30% (_Gradient Palette.json)
-          "black/30percent": "var(--color-alpha-black-30percent)",
+          "black-30percent": "var(--color-alpha-black-30percent)",
           // Alpha/Black/40% (_Gradient Palette.json)
-          "black/40percent": "var(--color-alpha-black-40percent)",
+          "black-40percent": "var(--color-alpha-black-40percent)",
           // Alpha/Black/50% (_Gradient Palette.json)
-          "black/50percent": "var(--color-alpha-black-50percent)",
+          "black-50percent": "var(--color-alpha-black-50percent)",
           // Alpha/Black/60% (_Gradient Palette.json)
-          "black/60percent": "var(--color-alpha-black-60percent)",
+          "black-60percent": "var(--color-alpha-black-60percent)",
           // Alpha/Black/70% (_Gradient Palette.json)
-          "black/70percent": "var(--color-alpha-black-70percent)",
+          "black-70percent": "var(--color-alpha-black-70percent)",
           // Alpha/Black/80% (_Gradient Palette.json)
-          "black/80percent": "var(--color-alpha-black-80percent)",
+          "black-80percent": "var(--color-alpha-black-80percent)",
           // Alpha/Black/90% (_Gradient Palette.json)
-          "black/90percent": "var(--color-alpha-black-90percent)",
+          "black-90percent": "var(--color-alpha-black-90percent)",
           // Alpha/Black/100% (_Gradient Palette.json)
-          "black/100percent": "var(--color-alpha-black-100percent)",
+          "black-100percent": "var(--color-alpha-black-100percent)",
           // Alpha/White/1% (_Gradient Palette.json)
-          "white/1percent": "var(--color-alpha-white-1percent)",
+          "white-1percent": "var(--color-alpha-white-1percent)",
           // Alpha/White/3% (_Gradient Palette.json)
-          "white/3percent": "var(--color-alpha-white-3percent)",
+          "white-3percent": "var(--color-alpha-white-3percent)",
           // Alpha/White/8% (_Gradient Palette.json)
-          "white/8percent": "var(--color-alpha-white-8percent)",
+          "white-8percent": "var(--color-alpha-white-8percent)",
           // Alpha/Black/1% (_Gradient Palette.json)
-          "black/1percent": "var(--color-alpha-black-1percent)",
+          "black-1percent": "var(--color-alpha-black-1percent)",
           // Alpha/Black/3% (_Gradient Palette.json)
-          "black/3percent": "var(--color-alpha-black-3percent)",
+          "black-3percent": "var(--color-alpha-black-3percent)",
           // Alpha/Black/8% (_Gradient Palette.json)
-          "black/8percent": "var(--color-alpha-black-8percent)",
-        },
+          "black-8percent": "var(--color-alpha-black-8percent)",
+      },
         "lemon": {
           // Lemon/40 (_Gradient Palette.json)
           "40": "var(--color-lemon-40)",
@@ -1680,7 +1680,7 @@ module.exports = {
           "80": "var(--color-lemon-80)",
           // Lemon/50 (_Gradient Palette.json)
           "50": "var(--color-lemon-50)",
-        },
+      },
         "dark-neutral": {
           // Dark Neutral/0 (_Gradient Palette.json)
           "0": "var(--color-dark-neutral-0)",
@@ -1713,20 +1713,20 @@ module.exports = {
           // Dark Neutral/99 (_Gradient Palette.json)
           "99": "var(--color-dark-neutral-99)",
           // Dark Neutral/Special/10 (_Gradient Palette.json)
-          "special/10": "var(--color-dark-neutral-special-10)",
+          "special-10": "var(--color-dark-neutral-special-10)",
           // Dark Neutral/Special/30 (_Gradient Palette.json)
-          "special/30": "var(--color-dark-neutral-special-30)",
+          "special-30": "var(--color-dark-neutral-special-30)",
           // Dark Neutral/Special/40 (_Gradient Palette.json)
-          "special/40": "var(--color-dark-neutral-special-40)",
+          "special-40": "var(--color-dark-neutral-special-40)",
           // Dark Neutral/5 (_Gradient Palette.json)
           "5": "var(--color-dark-neutral-5)",
           // Dark Neutral/Special/0 (_Gradient Palette.json)
-          "special/0": "var(--color-dark-neutral-special-0)",
+          "special-0": "var(--color-dark-neutral-special-0)",
           // Dark Neutral/Special/5 (_Gradient Palette.json)
-          "special/5": "var(--color-dark-neutral-special-5)",
+          "special-5": "var(--color-dark-neutral-special-5)",
           // Dark Neutral/Special/20 (_Gradient Palette.json)
-          "special/20": "var(--color-dark-neutral-special-20)",
-        },
+          "special-20": "var(--color-dark-neutral-special-20)",
+      },
         "basic": {
           // Basic/None (_Gradient Palette.json)
           "none": "var(--color-basic-none)",
@@ -1734,7 +1734,7 @@ module.exports = {
           "white": "var(--color-basic-white)",
           // Basic/Black (_Gradient Palette.json)
           "black": "var(--color-basic-black)",
-        },
+      },
         "moss": {
           // Moss/25 (_Gradient Palette.json)
           "25": "var(--color-moss-25)",
@@ -1760,7 +1760,7 @@ module.exports = {
           "900": "var(--color-moss-900)",
           // Moss/950 (_Gradient Palette.json)
           "950": "var(--color-moss-950)",
-        },
+      },
         "teal": {
           // Teal/25 (_Gradient Palette.json)
           "25": "var(--color-teal-25)",
@@ -1786,7 +1786,7 @@ module.exports = {
           "900": "var(--color-teal-900)",
           // Teal/950 (_Gradient Palette.json)
           "950": "var(--color-teal-950)",
-        },
+      },
         "cyan": {
           // Cyan/25 (_Gradient Palette.json)
           "25": "var(--color-cyan-25)",
@@ -1812,7 +1812,7 @@ module.exports = {
           "900": "var(--color-cyan-900)",
           // Cyan/950 (_Gradient Palette.json)
           "950": "var(--color-cyan-950)",
-        },
+      },
         "indigo": {
           // Indigo/25 (_Gradient Palette.json)
           "25": "var(--color-indigo-25)",
@@ -1838,7 +1838,7 @@ module.exports = {
           "900": "var(--color-indigo-900)",
           // Indigo/950 (_Gradient Palette.json)
           "950": "var(--color-indigo-950)",
-        },
+      },
         "pink": {
           // Pink/25 (_Gradient Palette.json)
           "25": "var(--color-pink-25)",
@@ -1864,7 +1864,7 @@ module.exports = {
           "900": "var(--color-pink-900)",
           // Pink/950 (_Gradient Palette.json)
           "950": "var(--color-pink-950)",
-        },
+      },
         "rosé": {
           // Rosé/25 (_Gradient Palette.json)
           "25": "var(--color-rosé-25)",
@@ -1890,7 +1890,7 @@ module.exports = {
           "900": "var(--color-rosé-900)",
           // Rosé/950 (_Gradient Palette.json)
           "950": "var(--color-rosé-950)",
-        },
+      },
         "orange": {
           // Orange/25 (_Gradient Palette.json)
           "25": "var(--color-orange-25)",
@@ -1916,7 +1916,7 @@ module.exports = {
           "900": "var(--color-orange-900)",
           // Orange/950 (_Gradient Palette.json)
           "950": "var(--color-orange-950)",
-        },
+      },
         "amber": {
           // Amber/50 (_Gradient Palette.json)
           "50": "var(--color-amber-50)",
@@ -1942,7 +1942,7 @@ module.exports = {
           "950": "var(--color-amber-950)",
           // Amber/25 (_Gradient Palette.json)
           "25": "var(--color-amber-25)",
-        },
+      },
         "purple": {
           // Purple/25 (_Gradient Palette.json)
           "25": "var(--color-purple-25)",
@@ -1968,7 +1968,7 @@ module.exports = {
           "900": "var(--color-purple-900)",
           // Purple/950 (_Gradient Palette.json)
           "950": "var(--color-purple-950)",
-        },
+      },
         "sky-blue": {
           // Sky Blue/25 (_Gradient Palette.json)
           "25": "var(--color-sky-blue-25)",
@@ -1994,7 +1994,7 @@ module.exports = {
           "900": "var(--color-sky-blue-900)",
           // Sky Blue/950 (_Gradient Palette.json)
           "950": "var(--color-sky-blue-950)",
-        }
+      }
       },
       spacing: {
         // Spacing/spacing-none (Base.json)
