@@ -84,5 +84,10 @@ ok。既然注释已经生成对了，请将 margin  width 等其他的也添加
 
 ---
 
+TODO
+合并 global.css 和 tailwind.config.js。
+但是实在吵不动了。先手动合并了。
+
+
 
 
