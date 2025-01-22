@@ -390,7 +390,7 @@ module.exports = {
             DEFAULT: "var(--color-neutral-variant-80)",
             dark: "var(--color-dark-neutral-special-30)"
           },
-      },
+        },
         "text": {
           // Text/Default (Design Token.json)
           "default": {
@@ -472,7 +472,7 @@ module.exports = {
             DEFAULT: "var(--color-neutral-100)",
             dark: "var(--color-neutral-10)"
           },
-      },
+        },
         "border": {
           // Border/Default (Design Token.json)
           "default": {
@@ -534,7 +534,7 @@ module.exports = {
             DEFAULT: "var(--color-neutral-variant-80)",
             dark: "var(--color-neutral-variant-80)"
           },
-      },
+        },
         "alpha": {
           // Alpha/Facetime/White (Design Token.json)
           "facetime-white": {
@@ -701,7 +701,7 @@ module.exports = {
             DEFAULT: "var(--color-alpha-black-100percent)",
             dark: "var(--color-alpha-white-100percent)"
           },
-      },
+        },
         "icon": {
           // Icon/Default (Design Token.json)
           "default": {
@@ -763,7 +763,7 @@ module.exports = {
             DEFAULT: "var(--color-blue-30)",
             dark: "var(--color-blue-30)"
           },
-      },
+        },
         "shadows": {
           // Shadows/Surface/Default (Design Token.json)
           "surface-default": {
@@ -800,7 +800,7 @@ module.exports = {
             DEFAULT: "var(--color-alpha-black-5percent)",
             dark: "var(--color-alpha-white-10percent)"
           },
-      },
+        },
         "focus-rings": {
           // Focus rings/Brand (Design Token.json)
           "brand": {
@@ -812,7 +812,7 @@ module.exports = {
             DEFAULT: "var(--color-red-55)",
             dark: "var(--color-red-55)"
           },
-      },
+        },
         "beta": {
           // Beta/White-1 (Design Token.json)
           "white-1": {
@@ -954,7 +954,7 @@ module.exports = {
             DEFAULT: "var(--color-alpha-black-100percent)",
             dark: "var(--color-alpha-black-100percent)"
           },
-      },
+        },
         "utility": {
           // Utility/Moss/50 (Design Token.json)
           "moss-50": {
@@ -1356,7 +1356,7 @@ module.exports = {
             DEFAULT: "var(--color-sky-blue-700)",
             dark: "var(--color-sky-blue-300)"
           },
-      },
+        },
         "neutral": {
           // Neutral/0 (_Gradient Palette.json)
           "0": "var(--color-neutral-0)",
@@ -1388,7 +1388,7 @@ module.exports = {
           "20": "var(--color-neutral-20)",
           // Neutral/30 (_Gradient Palette.json)
           "30": "var(--color-neutral-30)",
-      },
+        },
         "neutral-variant": {
           // Neutral Variant/20 (_Gradient Palette.json)
           "20": "var(--color-neutral-variant-20)",
@@ -1424,7 +1424,7 @@ module.exports = {
           "15": "var(--color-neutral-variant-15)",
           // Neutral Variant/35 (_Gradient Palette.json)
           "35": "var(--color-neutral-variant-35)",
-      },
+        },
         "blue": {
           // Blue/5 (_Gradient Palette.json)
           "5": "var(--color-blue-5)",
@@ -1462,7 +1462,7 @@ module.exports = {
           "dark-40": "var(--color-blue-dark-40)",
           // Blue/Dark/50 (_Gradient Palette.json)
           "dark-50": "var(--color-blue-dark-50)",
-      },
+        },
         "red": {
           // Red/0 (_Gradient Palette.json)
           "0": "var(--color-red-0)",
@@ -1496,7 +1496,7 @@ module.exports = {
           "25": "var(--color-red-25)",
           // Red/55 (_Gradient Palette.json)
           "55": "var(--color-red-55)",
-      },
+        },
         "yellow": {
           // Yellow/5 (_Gradient Palette.json)
           "5": "var(--color-yellow-5)",
@@ -1532,7 +1532,7 @@ module.exports = {
           "0": "var(--color-yellow-0)",
           // Yellow/50 (_Gradient Palette.json)
           "50": "var(--color-yellow-50)",
-      },
+        },
         "aqua": {
           // Aqua/5 (_Gradient Palette.json)
           "5": "var(--color-aqua-5)",
@@ -1570,7 +1570,7 @@ module.exports = {
           "55": "var(--color-aqua-55)",
           // Aqua/75 (_Gradient Palette.json)
           "75": "var(--color-aqua-75)",
-      },
+        },
         "green": {
           // Green/0 (_Gradient Palette.json)
           "0": "var(--color-green-0)",
@@ -1662,7 +1662,7 @@ module.exports = {
           "black-3percent": "var(--color-alpha-black-3percent)",
           // Alpha/Black/8% (_Gradient Palette.json)
           "black-8percent": "var(--color-alpha-black-8percent)",
-      },
+        },
         "lemon": {
           // Lemon/40 (_Gradient Palette.json)
           "40": "var(--color-lemon-40)",
@@ -1680,7 +1680,7 @@ module.exports = {
           "80": "var(--color-lemon-80)",
           // Lemon/50 (_Gradient Palette.json)
           "50": "var(--color-lemon-50)",
-      },
+        },
         "dark-neutral": {
           // Dark Neutral/0 (_Gradient Palette.json)
           "0": "var(--color-dark-neutral-0)",
@@ -1726,7 +1726,7 @@ module.exports = {
           "special-5": "var(--color-dark-neutral-special-5)",
           // Dark Neutral/Special/20 (_Gradient Palette.json)
           "special-20": "var(--color-dark-neutral-special-20)",
-      },
+        },
         "basic": {
           // Basic/None (_Gradient Palette.json)
           "none": "var(--color-basic-none)",
@@ -1734,7 +1734,7 @@ module.exports = {
           "white": "var(--color-basic-white)",
           // Basic/Black (_Gradient Palette.json)
           "black": "var(--color-basic-black)",
-      },
+        },
         "moss": {
           // Moss/25 (_Gradient Palette.json)
           "25": "var(--color-moss-25)",
@@ -1760,7 +1760,7 @@ module.exports = {
           "900": "var(--color-moss-900)",
           // Moss/950 (_Gradient Palette.json)
           "950": "var(--color-moss-950)",
-      },
+        },
         "teal": {
           // Teal/25 (_Gradient Palette.json)
           "25": "var(--color-teal-25)",
@@ -1786,7 +1786,7 @@ module.exports = {
           "900": "var(--color-teal-900)",
           // Teal/950 (_Gradient Palette.json)
           "950": "var(--color-teal-950)",
-      },
+        },
         "cyan": {
           // Cyan/25 (_Gradient Palette.json)
           "25": "var(--color-cyan-25)",
@@ -1812,7 +1812,7 @@ module.exports = {
           "900": "var(--color-cyan-900)",
           // Cyan/950 (_Gradient Palette.json)
           "950": "var(--color-cyan-950)",
-      },
+        },
         "indigo": {
           // Indigo/25 (_Gradient Palette.json)
           "25": "var(--color-indigo-25)",
@@ -1838,7 +1838,7 @@ module.exports = {
           "900": "var(--color-indigo-900)",
           // Indigo/950 (_Gradient Palette.json)
           "950": "var(--color-indigo-950)",
-      },
+        },
         "pink": {
           // Pink/25 (_Gradient Palette.json)
           "25": "var(--color-pink-25)",
@@ -1864,7 +1864,7 @@ module.exports = {
           "900": "var(--color-pink-900)",
           // Pink/950 (_Gradient Palette.json)
           "950": "var(--color-pink-950)",
-      },
+        },
         "rosé": {
           // Rosé/25 (_Gradient Palette.json)
           "25": "var(--color-rosé-25)",
@@ -1890,7 +1890,7 @@ module.exports = {
           "900": "var(--color-rosé-900)",
           // Rosé/950 (_Gradient Palette.json)
           "950": "var(--color-rosé-950)",
-      },
+        },
         "orange": {
           // Orange/25 (_Gradient Palette.json)
           "25": "var(--color-orange-25)",
@@ -1916,7 +1916,7 @@ module.exports = {
           "900": "var(--color-orange-900)",
           // Orange/950 (_Gradient Palette.json)
           "950": "var(--color-orange-950)",
-      },
+        },
         "amber": {
           // Amber/50 (_Gradient Palette.json)
           "50": "var(--color-amber-50)",
@@ -1942,7 +1942,7 @@ module.exports = {
           "950": "var(--color-amber-950)",
           // Amber/25 (_Gradient Palette.json)
           "25": "var(--color-amber-25)",
-      },
+        },
         "purple": {
           // Purple/25 (_Gradient Palette.json)
           "25": "var(--color-purple-25)",
@@ -1968,7 +1968,7 @@ module.exports = {
           "900": "var(--color-purple-900)",
           // Purple/950 (_Gradient Palette.json)
           "950": "var(--color-purple-950)",
-      },
+        },
         "sky-blue": {
           // Sky Blue/25 (_Gradient Palette.json)
           "25": "var(--color-sky-blue-25)",
@@ -1994,7 +1994,7 @@ module.exports = {
           "900": "var(--color-sky-blue-900)",
           // Sky Blue/950 (_Gradient Palette.json)
           "950": "var(--color-sky-blue-950)",
-      }
+        }
       },
       spacing: {
         // Spacing/spacing-none (Base.json)
